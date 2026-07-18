@@ -7,7 +7,7 @@ Next.js web app with an optional Claude chat layer grounded in the model's own n
 
 **Stack:** Python (ETL + analytics) · Next.js 14 / TypeScript / Tailwind (app) · SQLite + Prisma · Anthropic API (optional chat)
 
-> **Live demo:** _add your Vercel URL here after deploying_ — one-click setup in [DEPLOY.md](DEPLOY.md).
+> **▶ Live demo: [projects-9kjd.vercel.app](https://projects-9kjd.vercel.app/)** — a hosted, read-only build **showing Matchday 2 predictions (data captured 20 Jun 2026)**. One-click setup in [DEPLOY.md](DEPLOY.md).
 
 Built as a two-part monorepo. The two halves are deliberately decoupled and touch through
 exactly **one file** — `wc-companion/data/snapshot.json`:
@@ -25,6 +25,27 @@ exactly **one file** — `wc-companion/data/snapshot.json`:
 The model is the **only** source of numbers; the app never invents players, prices or
 stats — it arranges and displays engine output, and the in-app assistant is grounded to
 the snapshot's player list.
+
+---
+
+## The data is a point-in-time snapshot
+
+Fantasy value is a moving target. A player's projection, their **ownership**, and therefore
+the **optimal squad, captain pick and transfer suggestions all shift every matchday** — as
+minutes accumulate, prices and ownership move, injuries land and fixtures resolve. A lineup
+that is "optimal" one day is not the next: it is optimal *for the ownership landscape and the
+capture date it was computed from*. Differential picks especially depend on when ownership was
+read.
+
+- **This web app (and the bundled `snapshot.json`) shows _Matchday 2_ of the group stage, with
+  data captured on _20 June 2026_.** The app header states this on every page
+  (`World Cup 2026 · MD2 · engine 20/06/2026`).
+- [`wc_scout/sample-output/`](wc_scout/sample-output/) contains ranking outputs captured at
+  **different points** during the tournament — compare them to see how the picks move as the
+  competition progresses.
+- To capture the current state yourself, re-run the engine
+  (`python wc_scout/export_snapshot.py --incremental`) and reseed — see [Quickstart](#quickstart).
+  The app hot-reloads the new snapshot and the matchday label updates automatically.
 
 ---
 
