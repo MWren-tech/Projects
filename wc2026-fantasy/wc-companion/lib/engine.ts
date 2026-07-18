@@ -108,8 +108,9 @@ export function rateTeam(squad: Player[], optimalProjected: number): TeamRating 
     const premium = xi.xi.filter((p) => p.price >= 9).length;
     const diffs = squad.filter((p) => (p.ownership ?? 100) < 5).length;
     const benchXp = xi.bench.reduce((s, p) => s + p.xp, 0);
-    const softFix = xi.xi.filter((p) => p.fixtureEase >= 1.2).length;
-    const toughFix = xi.xi.filter((p) => p.fixtureEase < 0.9);
+    const softFix = xi.xi.filter((p) => (p.fixtureEase ?? 0) >= 1.2).length;
+    // guard null: depth players carry no fixtureEase, and `null < 0.9` coerces to true
+    const toughFix = xi.xi.filter((p) => p.fixtureEase != null && p.fixtureEase < 0.9);
 
     if (xi.captain.xp >= 10) strengths.push(`Strong captain in ${xi.captain.name} (${xi.captain.xp.toFixed(1)} xPts).`);
     if (diffs >= 3) strengths.push(`${diffs} sub-5% differentials — good rank upside.`);

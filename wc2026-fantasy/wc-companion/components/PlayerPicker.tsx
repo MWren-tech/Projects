@@ -39,7 +39,8 @@ export function PlayerPicker({
   disabledReason?: (p: Player) => string | null;
   heightClass?: string;
 }) {
-  const { has, add, remove } = useSquad();
+  const { ids, has, add, remove } = useSquad();
+  const squadFull = ids.length >= 15;
   const fixedPos = allowedPositions && allowedPositions.length === 1 ? allowedPositions[0] : null;
   const [pos, setPos] = useState<Position | "ALL">(fixedPos ?? "ALL");
   const [q, setQ] = useState("");
@@ -163,8 +164,10 @@ export function PlayerPicker({
                 {mode === "browse" ? (
                   <button
                     onClick={() => (inSquad ? remove(p.id) : add(p.id))}
+                    disabled={!inSquad && squadFull}
                     aria-label={inSquad ? `Remove ${p.name}` : `Add ${p.name}`}
-                    className={cn("grid h-7 w-7 place-items-center rounded-lg text-lg font-bold leading-none",
+                    title={!inSquad && squadFull ? "Squad full (15) — remove a player first" : undefined}
+                    className={cn("grid h-7 w-7 place-items-center rounded-lg text-lg font-bold leading-none disabled:cursor-not-allowed disabled:opacity-40",
                       inSquad ? "bg-danger/15 text-danger hover:bg-danger/25" : "bg-accent/15 text-accent hover:bg-accent/25")}
                   >{inSquad ? "−" : "+"}</button>
                 ) : (
