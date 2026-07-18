@@ -7,6 +7,8 @@ Next.js web app with an optional Claude chat layer grounded in the model's own n
 
 **Stack:** Python (ETL + analytics) · Next.js 14 / TypeScript / Tailwind (app) · SQLite + Prisma · Anthropic API (optional chat)
 
+> **Live demo:** _add your Vercel URL here after deploying_ — one-click setup in [DEPLOY.md](DEPLOY.md).
+
 Built as a two-part monorepo. The two halves are deliberately decoupled and touch through
 exactly **one file** — `wc-companion/data/snapshot.json`:
 
@@ -23,6 +25,27 @@ exactly **one file** — `wc-companion/data/snapshot.json`:
 The model is the **only** source of numbers; the app never invents players, prices or
 stats — it arranges and displays engine output, and the in-app assistant is grounded to
 the snapshot's player list.
+
+---
+
+## Screenshots
+
+The companion running locally against the bundled snapshot.
+
+**Dashboard** — engine optimal XI, captain pick, next booster and top differential at a glance:
+
+![Dashboard](docs/screenshots/dashboard.png)
+
+| Squad Builder | Players |
+|---|---|
+| ![Squad Builder](docs/screenshots/squad.png) | ![Players](docs/screenshots/players.png) |
+| **Transfer Planner** | **Boost Strategy** |
+| ![Transfer Planner](docs/screenshots/transfers.png) | ![Boost Strategy](docs/screenshots/boosts.png) |
+
+- **Squad Builder** — drag-and-drop pitch, live budget / formation / max-per-nation validation, one-click auto-pick of the engine's optimal XI.
+- **Players** — the full 1,484-player pool, searchable and sortable by projected points, price, ownership, value and fixture difficulty.
+- **Transfer Planner** — the engine's marginal-gain ladder (points gained per transfer, free vs. −3 hit).
+- **Boost Strategy** — expected value of each one-time chip in every remaining round, with the recommended schedule.
 
 ---
 

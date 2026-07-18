@@ -1,8 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // The engine snapshot lives outside the app dir; allow reading it at runtime.
-  experimental: { serverComponentsExternalPackages: ["@prisma/client"] },
+  experimental: {
+    serverComponentsExternalPackages: ["@prisma/client"],
+    // getSnapshot() reads data/snapshot.json via fs at runtime. On serverless
+    // hosts (Vercel) the file must be traced into each function bundle or the
+    // read 404s — force it in for every route.
+    outputFileTracingIncludes: {
+      "/**": ["./data/snapshot.json"],
+    },
+  },
 };
 
 export default nextConfig;
