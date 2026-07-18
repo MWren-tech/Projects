@@ -1,0 +1,4 @@
+# wc_scout engine — Python dependencies
+# Install into a virtualenv:  python -m venv .venv && .venv\Scripts\activate && pip install -r requirements.txt
+requests>=2.31      # API-Football + FIFA fantasy HTTP feeds
+pulp>=2.7           # ILP solver for the optimal-squad optimiser

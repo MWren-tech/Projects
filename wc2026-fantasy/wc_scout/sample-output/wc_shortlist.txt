@@ -1,0 +1,79 @@
+WC2026 best by position - final xPts (league-strength x form, probable WC starters)
+Pool: ENG, ESP, ITA, GER, FRA, POR, NED, BRA, BEL, ENG2, TUR, ARG, MEX, MLS, SCO, SUI, SAU, AUT, GRE, CRO | club min 600' | form blend: season 50% / club-recent 30% (last-40) / country 20% (last-8 intl), sample-weighted | starter: probable WC2026 XI
+$ = FIFA price | Own% = ownership (* = differential <5%) | Val = final xPts per $m | sXP = club season | rXP = club recent | cXP = country (intl) form | CS% = national group clean-sheet | Dif = attacking fixture difficulty
+
+=== Top 15 GK (WC2026 expected points; sorted by final xPts) ===
+ xPts  Player               Nation         Club           Lg       $   Own%   Val   sXP   rXP   cXP  CS%  Dif SP       
+-----------------------------------------------------------------------------------------------------------------------
+ 1   5.16  J. Pickford          England        Everton        ENG    4.8   14.8  1.08  5.21  5.06  5.06  72% 1.22          
+ 2   4.87  D. Fofana            Ivory Coast    Fatih Karagümr TUR    4.2   0.2*  1.16  6.77     -     -  61% 0.96          
+ 3   4.02  Unai Simón           Spain          Athletic Club  ESP    5.0    6.3  0.80  4.16  3.81  4.78  46% 1.04          
+ 4   3.96  G. Kobel             Switzerland    Borussia Dortm GER    4.7    6.6  0.84  4.25  4.21  4.13  53% 1.03          
+ 5   3.93  B. Verbruggen        Netherlands    Brighton       ENG    4.7   3.6*  0.84  3.98  3.99  3.42  45% 1.22          
+ 6   3.93  R. James             England        Chelsea        ENG    4.0   0.6*  0.98  3.99     -  2.96  72% 1.22 FK3      
+ 7   3.88  L. Kokubo            Japan          St. Truiden    BEL      -      -     -  5.18  5.13     -  57% 1.34 FK1 C1   
+ 8   3.79  M. Ryan              Australia      Levante        ESP    4.1   0.7*  0.92  4.04  3.67  3.59  42% 1.34          
+ 9   3.73  M. Crépeau           Canada         Portland Timbe MLS    4.0   1.5*  0.93  5.51     -  5.06  72% 1.24          
+10   3.70  T. Courtois          Belgium        Real Madrid    ESP    4.9   12.3  0.76  3.76  4.09  3.43  45% 1.03          
+11   3.50  H. Galíndez          Ecuador        Huracan        ARG    4.2   3.1*  0.83  4.76     -  5.55  64% 1.01          
+12   3.46  X. Schlager          Austria        RB Leipzig     GER    4.6   0.4*  0.75  3.53  4.44  2.85  54% 0.77          
+13   3.42  Alisson Santos       Brazil         Napoli         ITA    5.0    5.4  0.68  3.76  3.07     -  33% 0.96          
+14   3.17  Alisson Becker       Brazil         Liverpool      ENG    5.0    5.4  0.63  3.05     -  5.00  33% 0.96          
+15   3.10  N. Vasilj            Bosnia and Her FC St. Pauli   GER    4.0   0.7*  0.78  3.38  3.39  2.82  28% 1.00          
+
+=== Top 15 DEF (WC2026 expected points; sorted by final xPts) ===
+ xPts  Player               Nation         Club           Lg       $   Own%   Val   sXP   rXP   cXP  CS%  Dif SP       
+-----------------------------------------------------------------------------------------------------------------------
+ 1   7.64  Lautaro Martínez     Argentina      Inter          ITA    4.3   0.0*  1.78  8.50  8.10  2.93  73% 0.87 P2       
+ 2   7.00  Mohamed Salah        Egypt          Liverpool      ENG    4.0   0.5*  1.75  6.36     - 11.84  37% 1.05 P1 FK1 C1
+ 3   5.67  V. van Dijk          Netherlands    Liverpool      ENG    5.5   20.3  1.03  4.28  7.26 11.15  45% 1.22          
+ 4   5.67  R. Dōan              Japan          Eintracht Fran GER    5.1   0.9*  1.11  5.83  6.85     -  57% 1.34 P2 C3    
+ 5   5.37  Y. Diomande          Ivory Coast    RB Leipzig     GER    4.3   0.4*  1.25  6.58  4.73  4.48  61% 0.96 C2       
+ 6   5.28  M. Guéhi             England        Manchester Cit ENG    5.1    8.1  1.04  5.33  5.30  4.41  72% 1.22          
+ 7   5.16  T. Molina            Argentina      Argentinos JRS ARG    4.4   3.8*  1.17  7.79  5.51     -  73% 0.87          
+ 8   4.91  A. Hakimi            Morocco        Paris Saint Ge FRA    6.0   21.5  0.82  5.62     -  4.53  72% 1.25 P2 FK1 C1
+ 9   4.88  João Félix           Portugal       Al-Nassr       SAU    5.3    7.3  0.92  7.77  9.43  3.70  39% 0.94          
+10   4.87  C. Romero            Argentina      Tottenham      ENG    4.9   4.9*  0.99  5.05     -  4.41  73% 0.87          
+11   4.77  E. Martínez          Argentina      Aston Villa    ENG    4.3   0.0*  1.11  4.60  5.43  4.58  73% 0.87 P2       
+12   4.70  Z. Romero            Argentina      Getafe         ESP    4.9   4.9*  0.96  4.43  5.90     -  73% 0.87          
+13   4.61  A. Martínez          Argentina      Racing Club    ARG    4.3   0.0*  1.07  6.69  5.90     -  73% 0.87 P2       
+14   4.51  J. Bos               Australia      Feyenoord      NED      -      -     -  5.11  5.24 10.65  42% 1.34          
+15   4.37  E. Konsa             England        Aston Villa    ENG    4.8   1.1*  0.91  4.36  4.41  4.41  72% 1.22          
+
+=== Top 15 MID (WC2026 expected points; sorted by final xPts) ===
+ xPts  Player               Nation         Club           Lg       $   Own%   Val   sXP   rXP   cXP  CS%  Dif SP       
+-----------------------------------------------------------------------------------------------------------------------
+ 1   8.01  H. Çalhanoğlu        Turkey         Inter          ITA    7.1   2.8*  1.13  8.12     -  9.20  34% 1.22 P1 FK1 C1
+ 2   7.33  Raphinha             Brazil         Barcelona      ESP    8.2   21.3  0.89  7.76     -  4.52  33% 0.96 P1 FK1 C1
+ 3   7.31  Lamine Yamal         Spain          Barcelona      ESP   10.0   45.4  0.73  8.42     -  2.04  46% 1.04 FK2 C1   
+ 4   6.99  Bruno Fernandes      Portugal       Manchester Uni ENG    8.5   49.7  0.82  6.98  7.01     -  39% 0.94 P2 FK2 C1
+ 5   6.65  I. Saibari           Morocco        PSV Eindhoven  NED    6.8   0.5*  0.98  9.11     -  2.30  72% 1.25          
+ 6   6.64  Carlos Vinícius      Brazil         Gremio         BRA   10.0   14.0  0.66  7.58 13.08     -  33% 0.96 C2       
+ 7   6.26  B. Saka              England        Arsenal        ENG    9.5    5.9  0.66  5.28  8.20  7.65  72% 1.22 C2       
+ 8   5.48  Vinícius Júnior      Brazil         Real Madrid    ESP   10.0   14.0  0.55  5.45  3.84 11.78  33% 0.96 C2       
+ 9   5.31  E. Fernández         Argentina      Chelsea        ENG    7.5   3.5*  0.71  5.19  5.75  5.09  73% 0.87          
+10   5.26  M. Olise             France         Bayern München GER    9.5   23.0  0.55  5.53  6.47  2.95  30% 0.80 FK1 C1   
+11   5.22  R. Ito               Japan          St. Truiden    BEL      -      -     -  6.91  7.24     -  57% 1.34 FK2 C2   
+12   5.09  F. Valverde          Uruguay        Real Madrid    ESP    7.5    6.1  0.68  5.48     -  4.68  43% 1.14 P1 FK1 C2
+13   5.07  A. Güler             Turkey         Real Madrid    ESP    7.0    8.8  0.72  5.12     -  5.48  34% 1.22 P2 FK2 C2
+14   5.03  L. Díaz              Colombia       Bayern München GER    8.1   18.8  0.62  5.79  4.33  3.80  30% 0.87 P2       
+15   5.00  D. Rice              England        Arsenal        ENG    7.0    6.8  0.71  5.19  3.44  5.59  72% 1.22 FK1 C1   
+
+=== Top 15 FWD (WC2026 expected points; sorted by final xPts) ===
+ xPts  Player               Nation         Club           Lg       $   Own%   Val   sXP   rXP   cXP  CS%  Dif SP       
+-----------------------------------------------------------------------------------------------------------------------
+ 1   9.51  H. Kane              England        Bayern München GER   10.5   37.6  0.91 10.09  9.41 14.34  72% 1.22 P1       
+ 2   7.65  D. Malen             Netherlands    AS Roma        ITA    6.1   1.4*  1.25  8.38  8.90  1.74  45% 1.22          
+ 3   6.78  A. Ueda              Japan          Feyenoord      NED    7.0   0.7*  0.97  8.89  7.09     -  57% 1.34 P1       
+ 4   6.72  E. Haaland           Norway         Manchester Cit ENG   10.5   33.6  0.64  6.81  8.02  1.63  51% 0.94 P1       
+ 5   5.98  L. Messi             Argentina      Inter Miami    MLS   10.0   17.8  0.60  8.82  9.10  8.03  73% 0.87 P1 FK1 C1
+ 6   5.41  Kylian Mbappé        France         Real Madrid    ESP   10.5   50.5  0.52  6.04  4.49  2.22  30% 0.80 P1       
+ 7   5.34  L. Suárez            Colombia       Sporting CP    POR    5.7   2.6*  0.94  6.71  6.91  0.97  30% 0.87          
+ 8   4.91  Son Heung-Min        South Korea    Los Angeles FC MLS    7.4   2.2*  0.66  7.93  7.63  4.99  48% 0.96 P1 FK1 C1
+ 9   4.77  Mikel Oyarzabal      Spain          Real Sociedad  ESP    8.1   16.7  0.59  4.66  4.49  8.89  46% 1.04 P1       
+10   4.70  P. Schick            Czechia        Bayer Leverkus GER    7.3   0.8*  0.64  4.97  7.44  2.62  44% 0.92 P1       
+11   4.34  E. Shomurodov        Uzbekistan     Başakşehir     TUR    6.5   0.1*  0.67  6.39  7.34  2.24  47% 1.06 P1       
+12   4.31  Cristiano Ronaldo    Portugal       Al-Nassr       SAU   10.0   12.6  0.43  7.38  5.60  5.79  39% 0.94 P1 FK1   
+13   3.88  M. Depay             Netherlands    Corinthians    BRA    7.4   1.2*  0.52  3.56     -  8.51  45% 1.22 P2 FK1 C1
+14   3.83  A. Semenyo           Ghana          Manchester Cit ENG    7.2   4.7*  0.53  4.24  3.41  0.97  25% 0.90          
+15   3.83  E. Demirović         Bosnia and Her VfB Stuttgart  GER    6.2   0.1*  0.62  3.92  5.22  2.75  28% 1.00 P3       

@@ -1,0 +1,174 @@
+// WC2026 Fantasy Companion — local SQLite schema.
+// SQLite needs no cloud account; to move to Supabase/Postgres later, change the
+// datasource provider to "postgresql" and DATABASE_URL — the models are portable.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String?  @unique
+  name      String?
+  createdAt DateTime @default(now())
+
+  squads        Squad[]
+  transfers     Transfer[]
+  recs          AIRecommendation[]
+  watchlist     Watchlist[]
+  favourites    FavouritePlayer[]
+  boostUsages   BoostUsage[]
+}
+
+// Mirror of the engine snapshot's player list (seeded from snapshot.json) so the
+// app can query/join/persist references. The engine remains the source of truth.
+model Player {
+  id           String   @id            // slug, e.g. "k-mbappe-france"
+  name         String
+  nation       String
+  club         String?
+  pos          String                  // GK | DEF | MID | FWD
+  price        Float
+  xp           Float                   // projected points / match
+  ownership    Float?
+  value        Float?
+  goals        Int?
+  assists      Int?
+  g90          Float?
+  a90          Float?
+  cleanSheet   Float?
+  fixtureEase  Float?
+  setPieces    String?
+  rating       Float?
+  startProb    Float?
+  aiRating     Float?
+  differential Float?
+  updatedAt    DateTime @default(now())
+
+  stats        PlayerStat[]
+  squadSlots   SquadPlayer[]
+  watchedBy    Watchlist[]
+  favouritedBy FavouritePlayer[]
+}
+
+// Per-matchday actual returns (optional, seedable from WC form pulls).
+model PlayerStat {
+  id       String @id @default(cuid())
+  playerId String
+  round    String
+  points   Float
+  minutes  Int?
+  goals    Int?
+  assists  Int?
+  player   Player @relation(fields: [playerId], references: [id], onDelete: Cascade)
+
+  @@unique([playerId, round])
+}
+
+// A nation's fixture context per round (seeded from snapshot.fixtures).
+model Fixture {
+  id           String  @id @default(cuid())
+  nation       String
+  round        String
+  opponent     String?
+  fixtureEase  Float?
+  cleanSheet   Float?
+
+  @@unique([nation, round])
+}
+
+model Squad {
+  id        String        @id @default(cuid())
+  userId    String
+  name      String        @default("My Squad")
+  formation String        @default("3-4-3")
+  budget    Float         @default(100)
+  isActive  Boolean       @default(true)
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+  user      User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  players   SquadPlayer[]
+  transfers Transfer[]
+}
+
+model SquadPlayer {
+  id         String  @id @default(cuid())
+  squadId    String
+  playerId   String
+  isStarter  Boolean @default(true)
+  isCaptain  Boolean @default(false)
+  isVice     Boolean @default(false)
+  benchOrder Int?
+  squad      Squad   @relation(fields: [squadId], references: [id], onDelete: Cascade)
+  player     Player  @relation(fields: [playerId], references: [id])
+
+  @@unique([squadId, playerId])
+}
+
+model Transfer {
+  id           String   @id @default(cuid())
+  userId       String
+  squadId      String?
+  round        String
+  outPlayerId  String
+  inPlayerId   String
+  xpDelta      Float?
+  isHit        Boolean  @default(false)
+  createdAt    DateTime @default(now())
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  squad        Squad?   @relation(fields: [squadId], references: [id], onDelete: SetNull)
+}
+
+// Tracks which one-time boosters have been used and when.
+model BoostUsage {
+  id        String   @id @default(cuid())
+  userId    String
+  booster   String                       // Wildcard | 12th Man | Maximum Captain | Qualification | Mystery
+  round     String
+  usedAt    DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, booster])
+}
+
+// Persisted AI answers (chat + structured recommendations) for history/newsletter.
+model AIRecommendation {
+  id          String   @id @default(cuid())
+  userId      String
+  kind        String                      // captain | transfer | boost | rate | chat | differential
+  prompt      String
+  recommendation String
+  confidence  String?
+  reasoning   String?
+  risks       String?
+  alternatives String?                    // JSON array
+  expected    String?
+  createdAt   DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Watchlist {
+  id       String @id @default(cuid())
+  userId   String
+  playerId String
+  note     String?
+  user     User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  player   Player @relation(fields: [playerId], references: [id])
+
+  @@unique([userId, playerId])
+}
+
+model FavouritePlayer {
+  id       String @id @default(cuid())
+  userId   String
+  playerId String
+  user     User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  player   Player @relation(fields: [playerId], references: [id])
+
+  @@unique([userId, playerId])
+}

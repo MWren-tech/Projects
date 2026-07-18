@@ -1,0 +1,20 @@
+{
+  "_comment": "The 15 players currently held (the last recommended squad). Used by optimise.py --transfers N to recommend changes. name+nation+pos identify each player.",
+  "squad": [
+    {"name": "Kane", "nation": "England", "pos": "FWD"},
+    {"name": "Malen", "nation": "Netherlands", "pos": "FWD"},
+    {"name": "Haaland", "nation": "Norway", "pos": "FWD"},
+    {"name": "Olise", "nation": "France", "pos": "MID"},
+    {"name": "Çalhanoğlu", "nation": "Turkey", "pos": "MID"},
+    {"name": "Raphinha", "nation": "Brazil", "pos": "MID"},
+    {"name": "Bruno Fernandes", "nation": "Portugal", "pos": "MID"},
+    {"name": "Saibari", "nation": "Morocco", "pos": "MID"},
+    {"name": "Van Dijk", "nation": "Netherlands", "pos": "DEF"},
+    {"name": "Doan", "nation": "Japan", "pos": "DEF"},
+    {"name": "Muñoz", "nation": "Colombia", "pos": "DEF"},
+    {"name": "Doué", "nation": "Ivory Coast", "pos": "DEF"},
+    {"name": "Coufal", "nation": "Czechia", "pos": "DEF"},
+    {"name": "Emiliano Martinez", "nation": "Argentina", "pos": "GK"},
+    {"name": "Ryan", "nation": "Australia", "pos": "GK"}
+  ]
+}

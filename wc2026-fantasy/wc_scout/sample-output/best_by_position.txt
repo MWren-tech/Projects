@@ -1,0 +1,77 @@
+Best players by position across 12 leagues  |  min 600' | WC2026 ruleset | xPts/match | pool: 3960 players
+
+=== Top 15 GK (all leagues, by xPts/match) ===
+ xPts  Player                  Team                Lg    Min  Sv/90   GC  PSv    Rt
+-----------------------------------------------------------------------------------
+ 1   5.13  J. Pickford             England           EURO    690   2.35    6    0   7.1
+ 2   4.66  Tiago Volpi             Gremio             BRA   2950   3.14   43    0   7.1
+ 3   4.37  Diogo Costa             FC Porto           POR   2907   1.86   15    1   7.1
+ 4   4.34  K. Scherpen             Union St. Gilloi   BEL   2842   1.90   20    1   7.2
+ 5   4.28  Carlos Miguel           Palmeiras          BRA    821   4.38    6    0   7.8
+ 6   4.26  A. Rossi                Flamengo           BRA   3367   2.41   24    3   7.2
+ 7   4.11  W. Szczęsny             Barcelona          ESP    720   2.88   15    1   7.0
+ 8   4.11  A. Trubin               Benfica            POR   2880   2.31   24    2   6.9
+ 9   4.07  M. Safonov              Paris Saint Germ   FRA   1350   2.73   14    1   7.2
+10   4.04  Rui Silva               Sporting CP        POR   2879   2.35   23    1   7.1
+11   4.01  J. Butez                Como               ITA   3420   2.32   29    1   7.2
+12   3.99  Cássio                  Cruzeiro           BRA   3122   3.11   27    1   7.1
+13   3.98  M. Svilar               AS Roma            ITA   3427   2.81   31    0   7.1
+14   3.95  M. Carnesecchi          Atalanta           ITA   3330   3.11   35    2   7.3
+15   3.90  Nawaf Al Aqidi          Al-Nassr           SAU    960   2.34   12    0   6.9
+
+=== Top 15 DEF (all leagues, by xPts/match) ===
+ xPts  Player                  Team                Lg    Min   G   A  Tk/90     PK    Rt
+----------------------------------------------------------------------------------------
+ 1   6.67  Reinaldo                Mirassol           BRA   2956  13   6   1.28   6/7*   7.3
+ 2   5.91  S. Lopes Cabral         Benfica            POR   2130   7   5   1.27   3/3*   7.1
+ 3   5.12  F. Hadërgjonaj          Alanyaspor         TUR   2212   6   9   0.98   3/3*   7.1
+ 4   4.98  Alex Telles             Botafogo           BRA   1594   4   4   0.96   3/3*   7.1
+ 5   4.84  Marçal                  Botafogo           BRA    917   5   0   1.47      -   7.3
+ 6   4.44  J. Piquerez             Palmeiras          BRA   2481   3   1   2.00   2/3*   7.1
+ 7   4.38  K. Walker               England           EURO    690   0   0   0.91      -   7.1
+ 8   4.37  Alberto Baio            FC Porto           POR   2231   1   8   2.46      -   7.0
+ 9   4.35  J. Timber               Arsenal            ENG   2457   3   5   2.42      -   6.9
+10   4.25  M. Araújo               Sporting CP        POR   2214   5   4   2.15      -   6.8
+11   4.25  J. Stones               England           EURO    690   0   0   0.52      -   7.0
+12   4.23  T. Hernández            Al-Hilal Saudi F   SAU   2749   5   1   1.18      -   7.1
+13   4.18  R. Bensebaïni           Borussia Dortmun   GER   1529   5   2   1.65   2/2*   7.4
+14   4.14  Bremer                  Juventus           ITA   2175   4   3   1.16      -   7.1
+15   4.13  Gabriel Magalhães       Arsenal            ENG   2751   3   4   1.24      -   7.4
+
+=== Top 15 MID (all leagues, by xPts/match) ===
+ xPts  Player                  Team                Lg    Min   G   A   G/90   A/90  KP/90     PK    Rt
+------------------------------------------------------------------------------------------------------
+ 1   8.92  G. de Arrascaeta        Flamengo           BRA   2383  18  14   0.68   0.53   2.57   2/3*   7.7
+ 2   8.73  Lamine Yamal            Barcelona          ESP   2268  16  11   0.64   0.44   2.86   3/4*   8.0
+ 3   8.29  Y. Carrasco             Al Shabab          SAU   2508  18   8   0.65   0.29   2.73   8/9*   7.6
+ 4   7.78  João Félix              Al-Nassr           SAU   2914  20  13   0.62   0.40   3.00    1/1   7.8
+ 5   7.68  Bruno Fernandes         Manchester Unite   ENG   3066   9  21   0.26   0.62   4.02   4/6*   7.6
+ 6   7.65  Raphinha                Barcelona          ESP   1388  13   3   0.84   0.20   2.79   3/3*   7.5
+ 7   7.63  A. Benedyczak           Kasımpaşa          TUR   1165  10   1   0.77   0.08   0.77   3/3*   7.1
+ 8   7.59  Pote                    Sporting CP        POR   1993  13   8   0.59   0.36   2.48   2/2*   7.2
+ 9   7.27  I. Saibari              PSV Eindhoven      NED   2145  15   8   0.63   0.34   2.22    1/1   7.2
+10   6.86  Talisca                 Fenerbahçe         TUR   1957  19   4   0.87   0.18   0.97   5/8*   7.2
+11   6.85  Alan Patrick            Internacional      BRA   2532  11   7   0.39   0.25   3.56   6/7*   7.5
+12   6.58  Marco Asensio           Fenerbahçe         TUR   1886  11  12   0.53   0.57   2.39      -   7.3
+13   6.56  H. Çalhanoğlu           Inter              ITA   1650   9   4   0.49   0.22   2.24   4/5*   7.5
+14   6.52  N. Amiri                FSV Mainz 05       GER   2090  12   2   0.52   0.09   2.71   8/8*   7.5
+15   6.47  R. Zalazar              SC Braga           POR   1944  16   5   0.74   0.23   1.71  10/10*   7.3
+
+=== Top 15 FWD (all leagues, by xPts/match) ===
+ xPts  Player                  Team                Lg    Min   G   A   G/90  SoT/90     PK    Rt
+------------------------------------------------------------------------------------------------
+ 1   8.41  H. Kane                 Bayern München     GER   2382  36   5   1.36    2.53  10/11*   7.9
+ 2   8.23  I. Toney                Al-Ahli Jeddah     SAU   2659  31   7   1.05    1.62  10/11*   7.4
+ 3   8.22  J. Quiñones             Al-Qadisiyah FC    SAU   2724  33   4   1.09    1.95   2/2*   7.6
+ 4   7.58  L. Suárez               Sporting CP        POR   2697  28   6   0.93    2.00   4/6*   7.4
+ 5   7.54  Cristiano Ronaldo       Al-Nassr           SAU   2616  28   2   0.96    2.06   6/8*   7.2
+ 6   7.36  Carlos Vinícius         Gremio             BRA    950  12   1   1.14    1.42   3/3*   7.4
+ 7   7.28  Kylian Mbappé           Real Madrid        ESP   2604  25   5   0.86    2.18   8/9*   7.5
+ 8   7.17  E. Haaland              Manchester City    ENG   2958  27   8   0.82    1.79   3/4*   7.3
+ 9   7.02  D. Malen                AS Roma            ITA   1478  14   2   0.85    1.89   3/4*   7.2
+10   6.83  K. Benzema              Al-Hilal Saudi F   SAU   1922  17   2   0.80    2.20   2/4*   7.3
+11   6.75  Kaio Jorge              Cruzeiro           BRA   2613  21   8   0.72    1.58   1/2*   7.3
+12   6.41  Samu                    FC Porto           POR   1414  12   1   0.76    2.04   5/6*   6.8
+13   6.41  Pablo                   GIL Vicente        POR    955  10   1   0.94    1.23   2/3*   7.3
+14   6.31  C. Tzolis               Club Brugge KV     BEL   3079  17  23   0.50    1.29   3/4*   7.7
+15   6.29  V. Osimhen              Galatasaray        TUR   1718  15   5   0.79    2.10   2/2*   7.1

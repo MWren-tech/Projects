@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------ *
+ * Design tokens
+ * ------------------------------------------------------------------ */
+:root {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* spacing scale (4pt grid) is provided by Tailwind; these are semantic roles */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+
+  /* focus ring — high-contrast, used by :focus-visible everywhere */
+  --ring: #69d2ff;
+
+  /* elevation */
+  --elev-1: 0 1px 0 0 rgba(255, 255, 255, 0.03) inset, 0 6px 18px -10px rgba(0, 0, 0, 0.55);
+  --elev-2: 0 8px 30px -12px rgba(0, 0, 0, 0.7);
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(62, 230, 160, 0.05), transparent 60%),
+    radial-gradient(900px 500px at -10% 10%, rgba(90, 169, 255, 0.045), transparent 55%),
+    #0a0d12;
+  color: #e7ecf3;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* ------------------------------------------------------------------ *
+ * Accessibility foundations (WCAG 2.2 AA)
+ * ------------------------------------------------------------------ */
+
+/* Visible focus only for keyboard users (2.4.7 / 2.4.11). */
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Screen-reader-only utility. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Skip link revealed on focus. */
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: 100;
+  transition: top 0.15s ease;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* Respect reduced-motion (no decorative animation). */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ * Component layer
+ * ------------------------------------------------------------------ */
+@layer components {
+  .card {
+    @apply rounded-2xl border border-border bg-surface shadow-card;
+  }
+  .card-2 {
+    @apply rounded-xl border border-border bg-surface-2;
+  }
+  .num {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum";
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs font-medium;
+  }
+  .label {
+    @apply text-[11px] font-medium uppercase tracking-wider text-muted;
+  }
+  .nav-item {
+    @apply flex items-center gap-3 rounded-xl px-3 py-2 text-sm text-muted transition-colors hover:bg-surface-2 hover:text-fg;
+  }
+  .nav-item-active {
+    @apply bg-surface-2 text-fg shadow-[inset_0_0_0_1px_rgba(62,230,160,0.18)];
+  }
+  /* Skeleton shimmer (disabled under reduced-motion via the media query above). */
+  .skeleton {
+    @apply rounded-md bg-surface-2;
+    background-image: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 1.4s ease-in-out infinite;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* slim scrollbars */
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-thumb { background: #2a3140; border-radius: 8px; border: 2px solid transparent; background-clip: padding-box; }
+*::-webkit-scrollbar-thumb:hover { background: #36405180; background-clip: padding-box; }
+*::-webkit-scrollbar-track { background: transparent; }

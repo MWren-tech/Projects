@@ -1,0 +1,346 @@
+WC2026 FULL RANKED LIST - 328 players (FIFA-game players only; FIFA positions)
+final = league-strength x form(season+club-recent+country) | $=FIFA price | Own%(*=<5%) | Val=pts/$m | sXP/cXP=club-season/country form | CS%=natl clean sheet | Dif=fixture ease | SP=set-piece
+
+===== GK (25) =====
+  #  xPts Player                Nation       Lg       $  Own%  Val  sXP  cXP  CS%  Dif SP
+-----------------------------------------------------------------------------------------
+  1  5.86 E. Martínez           Argentina    ENG    5.0  22.1 1.17 5.79 5.18  73% 0.92
+  2  5.13 J. Pickford           England      ENG    4.8  14.9 1.07 5.18 5.03  72% 1.22 
+  3  4.63 Z. Suzuki             Japan        ITA    4.3  1.8* 1.08 4.84 4.65  57% 1.34 
+  4  4.02 Unai Simón            Spain        ESP    5.0   6.2 0.80 4.16 4.77  46% 1.04 
+  5  3.96 G. Kobel              Switzerland  GER    4.7   6.5 0.84 4.25 4.13  53% 1.03 
+  6  3.93 B. Verbruggen         Netherlands  ENG    4.7  3.5* 0.84 3.98 3.42  45% 1.22 
+  7  3.79 M. Ryan               Australia    ESP    4.1  0.7* 0.92 4.04 3.59  42% 1.34 
+  8  3.73 M. Crépeau            Canada       MLS    4.0  2.0* 0.93 5.51 5.06  72% 1.24 
+  9  3.70 T. Courtois           Belgium      ESP    4.9  12.5 0.76 3.76 3.43  45% 1.03 
+ 10  3.50 H. Galíndez           Ecuador      ARG    4.2  3.4* 0.83 4.76 5.55  64% 1.01 
+ 11  3.17 Alisson Becker        Brazil       ENG    5.0   5.4 0.63 3.05 5.00  33% 0.99 
+ 12  3.10 N. Vasilj             Bosnia and H GER    4.0  0.7* 0.78 3.38 2.82  28% 1.00 
+ 13  3.07 M. Neuer              Germany      GER    5.0  12.7 0.61 3.27    -  38% 0.75 
+ 14  3.06 L. Horníček           Czechia      POR    3.8  0.1* 0.81 3.84    -  44% 0.94 
+ 15  2.95 S. Rochet             Uruguay      BRA    4.1  4.2* 0.72 3.98 2.99  43% 1.14 
+ 16  2.92 M. Maignan            France       ITA    5.0   9.8 0.58 3.16 2.48  31% 0.80 
+ 17  2.74 Diogo Costa           Portugal     POR    4.9   9.8 0.56 3.43 3.22  39% 0.87 
+ 18  2.70 A. Schlager           Austria      AUT    4.6  0.4* 0.59 4.19 4.14  54% 0.81 
+ 19  2.37 O. Gill               Paraguay     ARG    3.5  0.4* 0.68 3.33 3.05  37% 1.32 
+ 20  2.34 É. Mendy              Senegal      SAU    4.5  1.1* 0.52 3.43 3.95  40% 0.87 
+ 21  2.27 M. Crocombe           New Zealand  ENG2   3.9  0.1* 0.58 2.92 3.42  27% 0.89 
+ 22  2.05 D. Livaković          Croatia      CRO    4.5  1.5* 0.46 3.32 3.48  39% 1.01 
+ 23  2.00 Nawaf Al Aqidi        Saudi Arabia SAU    4.0  0.2* 0.50 3.02 3.47  32% 0.99 
+ 24  1.88 O. Mosquera           Panama       SAU    3.9  0.1* 0.48 2.90 2.16  25% 0.89 
+ 25  1.66 M. Freese             USA          MLS    4.2  0.5* 0.40 2.65 2.03  24% 1.13 
+
+===== DEF (122) =====
+  #  xPts Player                Nation       Lg       $  Own%  Val  sXP  cXP  CS%  Dif SP
+-----------------------------------------------------------------------------------------
+  1  6.15 V. van Dijk           Netherlands  ENG    5.5  20.2 1.12 4.6111.14  45% 1.22 
+  2  5.71 R. Dōan               Japan        GER    5.1  1.0* 1.12 5.87    -  57% 1.34 P2 C3
+  3  5.46 M. Guéhi              England      ENG    5.1   8.0 1.07 5.52 4.39  72% 1.22 
+  4  5.09 C. Romero             Argentina    ENG    4.9  4.9* 1.04 5.36 4.41  73% 0.92 
+  5  4.94 A. Hakimi             Morocco      FRA    6.0  21.6 0.82 5.69 4.38  68% 1.25 P2 FK1 C1
+  6  4.34 E. Konsa              England      ENG    4.8  1.1* 0.90 4.33 4.39  72% 1.22 
+  7  4.28 J. Ryerson            Norway       GER    4.2   7.9 1.02 4.40 2.95  51% 0.94 C2
+  8  4.22 G. Doué               Ivory Coast  FRA    3.9  0.9* 1.08 5.03 3.87  61% 0.96 
+  9  4.17 L. Krejčí             Czechia      ENG    4.4  0.5* 0.95 3.45 5.98  44% 0.94 
+ 10  4.16 R. Bensebaïni         Algeria      GER    4.4  0.2* 0.95 4.73 2.11  61% 0.86 
+ 11  4.05 N. Aguerd             Morocco      FRA    4.3  0.2* 0.94 4.55 4.20  68% 1.25 
+ 12  4.04 E. Ndicka             Ivory Coast  ITA    4.4  0.3* 0.92 4.38 3.88  61% 0.96 
+ 13  3.96 R. James              England      ENG    5.2  4.2* 0.76 4.03 2.94  72% 1.22 FK3
+ 14  3.93 D. Raum               Germany      GER    4.9  3.7* 0.80 4.18    -  38% 0.75 FK1 C1
+ 15  3.90 V. Coufal             Czechia      GER    3.6  3.5* 1.08 3.93 4.95  44% 0.94 C1
+ 16  3.86 D. Dumfries           Netherlands  ITA    5.7  15.7 0.68 3.95 4.90  45% 1.22 
+ 17  3.71 N. Otamendi           Argentina    POR    4.4  2.1* 0.84 4.76 4.42  73% 0.92 
+ 18  3.66 Marc Cucurella        Spain        ENG    5.1  23.6 0.72 3.45 5.86  46% 1.04 
+ 19  3.66 J. Gvardiol           Croatia      ENG    5.0   5.0 0.73 3.80 2.64  39% 1.01 
+ 20  3.60 N. Elvedi             Switzerland  GER    4.3  2.6* 0.84 3.61 3.49  53% 1.03 
+ 21  3.59 J. Vásquez            Mexico       ITA    4.7  2.0* 0.76 3.35 3.23  48% 1.01 
+ 22  3.53 P. Hincapié           Ecuador      ENG    4.7  3.2* 0.75 3.57 3.24  64% 1.01 
+ 23  3.45 D. Muñoz              Colombia     ENG    4.6   8.8 0.75 3.58 2.60  36% 0.87 
+ 24  3.45 P. Mwene              Austria      GER    3.9  0.0* 0.88 3.35 2.94  54% 0.81 
+ 25  3.44 M. Akanji             Switzerland  ITA    5.0  4.9* 0.69 3.81 3.15  53% 1.03 
+ 26  3.44 J. Kimmich            Germany      GER    5.5  30.3 0.63 3.47 5.28  38% 0.75 P2 C3
+ 27  3.40 N. Schlotterbeck      Germany      GER    5.3  3.8* 0.64 3.69 1.81  38% 0.75 
+ 28  3.37 W. Pacho              Ecuador      FRA    4.4  4.5* 0.77 3.83 2.96  64% 1.01 
+ 29  3.34 Wesley                Brazil       ITA    4.5  1.7* 0.74 3.40 2.35  33% 0.99 
+ 30  3.31 R. Belghali           Algeria      ITA    3.5  1.5* 0.95 3.64 2.43  61% 0.86 
+ 31  3.30 Y. Mina               Colombia     ITA    4.2  0.3* 0.79 2.91 4.95  36% 0.87 
+ 32  3.23 Pau Cubarsí Paredes   Spain        ESP    5.0   5.4 0.65 3.35 3.16  46% 1.04 
+ 33  3.23 João Cancelo          Portugal     ESP    5.3   7.4 0.61 3.23    -  39% 0.87 
+ 34  3.23 Gonçalo Inácio        Portugal     POR    4.6  1.4* 0.70 3.53    -  39% 0.87 
+ 35  3.21 S. Widmer             Switzerland  GER    4.2  1.2* 0.76 3.37 3.22  53% 1.03 
+ 36  3.11 Rúben Dias            Portugal     ENG    5.0   5.6 0.62 3.20 2.89  39% 0.87 
+ 37  3.10 R. Hranáč             Czechia      GER    3.9  0.0* 0.79 2.92 4.23  44% 0.94 
+ 38  3.06 A. Freeman            USA          MLS    4.0  0.4* 0.77 3.2715.67  24% 1.13 
+ 39  3.05 A. Theate             Belgium      GER    4.5  0.3* 0.68 3.24    -  45% 1.03 
+ 40  3.04 G. Konan              Ivory Coast  POR    4.0  0.4* 0.76 3.65    -  61% 0.96 
+ 41  3.02 Nuno Mendes           Portugal     FRA    5.8  43.1 0.52 3.81 2.21  39% 0.87 C3
+ 42  2.98 Aymeric Laporte       Spain        ESP    5.5  4.9* 0.54 3.23 3.15  46% 1.04 
+ 43  2.98 J. Ordoñez            Ecuador      BEL    3.9  0.8* 0.76 4.07 3.81  64% 1.01 
+ 44  2.93 Gabriel Magalhães     Brazil       ENG    5.5  23.1 0.53 3.33 1.43  33% 0.99 
+ 45  2.92 R. Laryea             Canada       MLS    3.9  0.1* 0.75 4.30    -  72% 1.24 
+ 46  2.88 Z. Çelik              Turkey       ITA    4.3  0.1* 0.67 2.90 3.88  34% 1.22 
+ 47  2.84 O. Alderete           Paraguay     ENG    4.1  0.4* 0.69 2.88 2.72  37% 1.32 
+ 48  2.84 N. Tagliafico         Argentina    FRA    4.3  1.1* 0.66 3.03 3.57  73% 0.92 
+ 49  2.83 A. Circati            Australia    ITA    3.9  0.1* 0.73 3.00 2.95  42% 1.34 
+ 50  2.82 T. Heggem             Norway       ITA    3.7  0.2* 0.76 2.97    -  51% 0.94 
+ 51  2.82 J. Italiano           Australia    AUT    4.2  0.1* 0.67 4.45 2.95  42% 1.34 
+ 52  2.81 J. Stanišić           Croatia      GER    4.3  0.5* 0.65 3.08 3.51  39% 1.01 
+ 53  2.78 G. Gómez              Paraguay     BRA    4.6  0.3* 0.60 3.66 3.35  37% 1.32 FK1 C1
+ 54  2.73 Marcos Llorente       Spain        ESP    5.5   5.1 0.50 3.15 2.84  46% 1.04 
+ 55  2.69 R. Rodríguez          Switzerland  ESP    4.5  1.8* 0.60 2.82 2.66  53% 1.03 
+ 56  2.65 K. Itakura            Japan        NED    4.5  0.2* 0.59 3.58 2.70  57% 1.34 
+ 57  2.64 J. Gallardo           Mexico       MEX    4.7  0.5* 0.56 3.88 2.93  48% 1.01 
+ 58  2.62 Lee Tae-Seok          South Korea  AUT    3.7  0.0* 0.71 4.06 4.91  47% 0.99 
+ 59  2.58 P. Lienhart           Austria      GER    4.3  0.2* 0.60 2.44 2.33  54% 0.81 
+ 60  2.58 M. Niakhaté           Senegal      FRA    4.3  0.1* 0.60 2.88    -  40% 0.87 
+ 61  2.56 R. Aït-Nouri          Algeria      ENG    4.9  1.2* 0.52 2.58 2.37  61% 0.86 
+ 62  2.56 M. Demiral            Turkey       SAU    4.0  0.7* 0.64 3.35 6.27  34% 1.22 
+ 63  2.53 Z. Debast             Belgium      POR    4.3  0.2* 0.59 2.49 9.56  45% 1.03 
+ 64  2.51 J. Alonso             Paraguay     BRA    4.1  0.1* 0.61 2.80 2.72  37% 1.32 
+ 65  2.51 S. Taniguchi          Japan        BEL    3.9  0.0* 0.64 3.46 3.24  57% 1.34 
+ 66  2.50 D. Ćaleta-Car         Croatia      ESP    4.0  0.4* 0.62 2.64 2.64  39% 1.01 
+ 67  2.41 M. De Cuyper          Belgium      ENG    4.7  4.5* 0.51 2.33 1.39  45% 1.03 C3
+ 68  2.35 J. Giménez            Uruguay      ESP    4.4  1.8* 0.53 2.61 1.93  43% 1.14 
+ 69  2.33 A. Robinson           USA          ENG    5.0  3.1* 0.47 1.45 4.98  24% 1.13 C3
+ 70  2.33 J. Mojica             Colombia     ESP    3.9  4.0* 0.60 2.41 2.33  36% 0.87 
+ 71  2.30 N. Molina             Argentina    ESP    4.4  3.7* 0.52 2.34 2.53  73% 0.92 
+ 72  2.29 O. Kabak              Turkey       GER    4.0  0.4* 0.57 3.02 1.83  34% 1.22 
+ 73  2.24 J. Sánchez            Mexico       MEX    4.0  0.8* 0.56 2.87 4.01  48% 1.01 
+ 74  2.18 A. Khusanov           Uzbekistan   ENG    4.3  0.9* 0.51 2.15 2.24  47% 0.99 
+ 75  2.18 W. Saliba             France       ENG    5.3  15.4 0.41 2.30 2.15  31% 0.80 
+ 76  2.09 T. Muharemović        Bosnia and H ITA    3.9  0.3* 0.54 2.41 2.01  28% 1.00 
+ 77  2.07 A. Abdi               Tunisia      FRA    4.1  0.1* 0.50 2.01 2.60  24% 1.08 P1 FK2 C2
+ 78  2.07 A. Salah-Eddine       Morocco      NED    3.9  0.0* 0.53 2.59    -  68% 1.25 
+ 79  2.05 D. Upamecano          France       GER    5.3  4.6* 0.39 2.20 1.96  31% 0.80 
+ 80  2.04 S. Floranus           Curacao      NED    3.6  0.0* 0.57 2.68 2.48  34% 0.73 
+ 81  1.98 T. Castagne           Belgium      ENG    4.7  0.4* 0.42 1.86    -  45% 1.03 
+ 82  1.94 C. Mbemba             DR Congo     FRA    4.2  0.1* 0.46 2.14 2.21  48% 1.01 
+ 83  1.91 A. Dedić              Bosnia and H POR    4.3  0.4* 0.44 2.33 1.84  28% 1.00 C2
+ 84  1.87 J. Koundé             France       ESP    5.4   7.3 0.35 2.05 1.80  31% 0.80 
+ 85  1.85 J. Šutalo             Croatia      NED    4.3  0.0* 0.43 2.30 2.34  39% 1.01 
+ 86  1.83 T. Hernández          France       SAU    5.0  3.2* 0.37 3.19 2.15  31% 0.80 
+ 87  1.78 A. Murillo            Panama       FRA    5.0  1.1* 0.36 2.06 1.35  25% 0.89 FK1
+ 88  1.75 K. Koulibaly          Senegal      SAU    4.9  0.7* 0.36 3.17 0.97  40% 0.87 
+ 89  1.72 M. Talbi              Tunisia      FRA    3.9  0.1* 0.44 1.64 2.80  24% 1.08 
+ 90  1.72 D. Sánchez            Colombia     TUR    4.3  0.8* 0.40 2.50 2.60  36% 0.87 
+ 91  1.66 Marquinhos            Brazil       FRA    5.2   7.1 0.32 1.91 0.41  33% 0.99 
+ 92  1.65 S. McKenna            Scotland     CRO    3.8  0.2* 0.43 3.03 2.38  32% 0.99 
+ 93  1.63 C. Arcus              Haiti        FRA    3.8  0.0* 0.43 1.74 1.99  26% 0.94 
+ 94  1.53 D. Møller Wolfe       Norway       ENG    4.0  0.7* 0.38 1.58    -  51% 0.94 
+ 95  1.53 K. Peprah Oppong      Ghana        FRA    3.5  0.3* 0.44 1.77 1.74  25% 0.89 
+ 96  1.52 C. Richards           USA          ENG    4.1  0.7* 0.37 1.78 0.92  24% 1.13 
+ 97  1.49 J. Córdoba            Panama       ENG2   4.0  0.3* 0.37 1.63 4.57  25% 0.89 
+ 98  1.48 G. Mensah             Ghana        FRA    3.9  0.1* 0.38 1.47 1.57  25% 0.89 
+ 99  1.45 Hassan Tambakti       Saudi Arabia SAU    4.5  0.1* 0.32 2.32 2.23  32% 0.99 
+100  1.42 R. Araújo             Uruguay      ESP    5.0  3.2* 0.28 1.64 1.04  43% 1.14 
+101  1.39 D. Svensson           Sweden       GER    4.5  0.5* 0.31 1.56 0.99  19% 0.94 
+102  1.39 Abdulelah Al Amri     Saudi Arabia SAU    3.7  0.0* 0.38 2.40 1.82  32% 0.99 
+103  1.34 M. Olivera            Uruguay      ITA    4.3  0.9* 0.31 1.41 1.41  43% 1.14 
+104  1.31 A. Robertson          Scotland     ENG    5.0  4.9* 0.26 1.23 1.50  32% 0.99 C1
+105  1.31 G. Hanley             Scotland     SCO    3.5  0.4* 0.37 2.02 2.37  32% 0.99 
+106  1.29 S. Kolašinac          Bosnia and H ITA    4.3  0.2* 0.30 1.36    -  28% 1.00 
+107  1.26 A. Andrade            Panama       AUT    3.7  0.0* 0.34 2.10    -  25% 0.89 
+108  1.18 Y. Valery             Tunisia      ENG2   3.9  0.0* 0.30 1.64 1.47  24% 1.08 
+109  1.14 A. Preciado           Ecuador      ARG    4.3  0.1* 0.27 1.58    -  64% 1.01 
+110  1.12 A. Trusty             USA          SCO    3.9  0.1* 0.29 1.41 4.73  24% 1.13 
+111  1.12 Moteb Al Harbi        Saudi Arabia SAU    4.1  0.0* 0.27 1.90 1.40  32% 0.99 
+112  1.08 I. Jakobs             Senegal      TUR    4.1  0.0* 0.26 1.52 1.43  40% 0.87 
+113  1.08 M. Boxall             New Zealand  MLS    3.7  0.0* 0.29 1.68 1.73  27% 0.89 
+114  1.00 G. Gudmundsson        Sweden       ENG    4.2  0.6* 0.24 0.97 1.17  19% 0.94 
+115  1.00 G. Lagerbielke        Sweden       POR    3.7  0.2* 0.27 1.41 0.66  19% 0.94 
+116  0.99 D. Bronn              Tunisia      SUI    3.6  0.0* 0.27 1.56 1.34  24% 1.08 
+117  0.94 C. Starfelt           Sweden       ESP    4.1  0.1* 0.23 0.92 1.08  19% 0.94 
+118  0.89 A. Seidu              Ghana        FRA    3.9  0.0* 0.23 1.07 0.38  25% 0.89 
+119  0.85 V. Lindelöf           Sweden       ENG    4.0  1.8* 0.21 0.92 0.75  19% 0.94 
+120  0.85 L. Cacace             New Zealand  ENG2   4.1  0.0* 0.21 1.15 1.15  27% 0.89 
+121  0.70 N. Aké                Netherlands  ENG    5.0  2.5* 0.14 0.68 0.72  45% 1.22 
+122  0.61 A. Hickey             Scotland     ENG    4.3  0.2* 0.14 0.60 0.64  32% 0.99 
+
+===== MID (124) =====
+  #  xPts Player                Nation       Lg       $  Own%  Val  sXP  cXP  CS%  Dif SP
+-----------------------------------------------------------------------------------------
+  1  8.67 Lamine Yamal          Spain        ESP   10.0  45.3 0.8710.04 2.05  46% 1.04 FK2 C1
+  2  8.48 H. Çalhanoğlu         Turkey       ITA    7.1  2.7* 1.19 8.81 9.23  34% 1.22 P1 FK1 C1
+  3  8.02 Raphinha              Brazil       ESP    8.2  21.4 0.98 8.51 4.56  33% 0.99 P1 FK1 C1
+  4  7.81 Bruno Fernandes       Portugal     ENG    8.5  50.3 0.92 7.79    -  39% 0.87 P2 FK2 C1
+  5  7.17 I. Saibari            Morocco      NED    6.8  0.5* 1.05 9.84 2.26  68% 1.25 
+  6  6.93 B. Saka               England      ENG    9.5   5.8 0.73 6.03 7.64  72% 1.22 C2
+  7  6.10 E. Fernández          Argentina    ENG    7.5  3.5* 0.81 6.01 5.25  73% 0.92 
+  8  5.96 M. Olise              France       GER    9.5  22.9 0.63 6.28 2.92  31% 0.80 FK1 C1
+  9  5.87 Vinícius Júnior       Brazil       ESP   10.0  13.9 0.59 5.9012.01  33% 0.99 C2
+ 10  5.75 K. De Bruyne          Belgium      ITA    7.5   5.6 0.77 6.29 3.73  45% 1.03 P1 FK1 C1
+ 11  5.57 Mohamed Salah         Egypt        ENG   10.0   5.5 0.56 4.99 9.96  37% 1.05 P1 FK1 C1
+ 12  5.45 D. Rice               England      ENG    7.0   6.8 0.78 5.86 5.63  72% 1.22 FK1 C1
+ 13  5.31 A. Güler              Turkey       ESP    7.0   9.0 0.76 5.48 5.47  34% 1.22 P2 FK2 C2
+ 14  5.28 L. Díaz               Colombia     GER    8.1  18.7 0.65 6.08 3.85  36% 0.87 P2
+ 15  5.22 J. Bellingham         England      ESP    8.3   9.4 0.63 5.44 2.35  72% 1.22 
+ 16  5.22 O. Kökçü            	Turkey       TUR    6.0  0.3* 0.87 8.10 5.96  34% 1.22 
+ 17  4.99 S. Mané               Senegal      SAU    7.6  2.0* 0.66 7.1117.50  40% 0.87 P1 FK1
+ 18  4.82 Casemiro              Brazil       ENG    6.3  2.2* 0.77 4.74 5.44  33% 0.99 
+ 19  4.80 J. Doku               Belgium      ENG    7.5  13.0 0.64 4.29 2.39  45% 1.03 
+ 20  4.73 Bruno Guimarães       Brazil       ENG    6.8  1.9* 0.70 5.25 5.78  33% 0.99 FK3 C3
+ 21  4.68 G. Xhaka              Switzerland  ENG    6.2  4.9* 0.75 4.09 7.08  53% 1.03 P1 FK2
+ 22  4.65 Nico Williams         Spain        ESP    7.8  3.9* 0.60 4.79    -  46% 1.04 C3
+ 23  4.50 F. Valverde           Uruguay      ESP    7.5   6.1 0.60 4.62 4.68  43% 1.14 P1 FK1 C2
+ 24  4.49 D. Doué               France       FRA    7.5  3.3* 0.60 4.61 7.77  31% 0.80 
+ 25  4.45 O. Dembélé            France       FRA   10.0  19.1 0.45 5.13 2.77  31% 0.80 
+ 26  4.43 Pedri                 Spain        ESP    8.1   9.6 0.55 5.06 3.38  46% 1.04 FK1
+ 27  4.40 L. Modrić             Croatia      ITA    6.2  2.5* 0.71 4.80 3.36  39% 1.01 P1 FK1 C1
+ 28  4.36 R. Vargas             Switzerland  ESP    6.8  0.5* 0.64 4.67 4.15  53% 1.03 FK1 C1
+ 29  4.34 J. Enciso             Paraguay     FRA    6.6  0.2* 0.66 4.25 2.36  37% 1.32 P1 FK2 C2
+ 30  4.32 S. McTominay          Scotland     ITA    6.5  10.9 0.66 4.65 5.21  32% 0.99 P1
+ 31  4.29 C. Pulišić            USA          ITA    7.0   5.1 0.61 4.68 4.09  24% 1.13 P1 FK1 C1
+ 32  4.23 T. Kubo               Japan        ESP    7.0  1.0* 0.60 4.17 4.84  57% 1.34 FK1 C1
+ 33  4.17 R. Gravenberch        Netherlands  ENG    6.1  0.9* 0.68 4.10 2.06  45% 1.22 
+ 34  4.13 L. Trossard           Belgium      ENG    6.6  2.3* 0.63 3.96 6.02  45% 1.03 
+ 35  4.13 C. De Ketelaere       Belgium      ITA    5.6  0.8* 0.74 4.19 9.96  45% 1.03 
+ 36  4.12 J.  McGinn            Scotland     ENG    6.0  2.1* 0.69 4.07 3.18  32% 0.99 P3 FK1 C4
+ 37  4.06 C. Baumgartner        Austria      GER    6.7  0.2* 0.61 5.03 2.23  54% 0.81 
+ 38  4.01 A. Ounahi             Morocco      ESP    6.2  0.1* 0.65 4.67 2.12  68% 1.25 FK2
+ 39  3.89 T. Reijnders          Netherlands  ENG    6.5  1.6* 0.60 3.53 7.32  45% 1.22 FK2
+ 40  3.86 M. Pašalić            Croatia      MLS    6.4  0.1* 0.60 5.67    -  39% 1.01 
+ 41  3.75 R. Mahrez             Algeria      SAU    6.5  0.7* 0.58 5.85    -  61% 0.86 P1 FK1 C2
+ 42  3.68 N. Angulo             Ecuador      BEL    6.0  0.2* 0.61 5.06 2.76  64% 1.01 
+ 43  3.58 R. Rios               Colombia     POR    4.7  0.6* 0.76 3.42 1.94  36% 0.87 
+ 44  3.46 F. Rieder             Switzerland  GER    6.2  0.1* 0.56 4.28 2.69  53% 1.03 FK3 C2
+ 45  3.26 K. Thorstvedt         Norway       ITA    6.2  0.0* 0.53 3.34 1.28  51% 0.94 
+ 46  3.25 A. Mac Allister       Argentina    ENG    6.6  3.3* 0.49 3.01 4.72  73% 0.92 
+ 47  3.25 K. Laimer             Austria      GER    5.8  0.4* 0.56 3.37    -  54% 0.81 
+ 48  3.23 M. Almirón            Paraguay     MLS    6.0  0.4* 0.54 4.40 7.42  37% 1.32 P2 FK3
+ 49  3.20 Y. Tielemans          Belgium      ENG    6.1  1.2* 0.52 3.45    -  45% 1.03 FK2 C2
+ 50  3.20 J. Arias              Colombia     BRA    6.3  0.3* 0.51 4.13 3.81  36% 0.87 
+ 51  3.20 F. Chaïbi             Algeria      GER    6.2  0.0* 0.52 3.54 2.26  61% 0.86 FK2 C1
+ 52  3.19 P. Gueye              Senegal      ESP    5.9  0.1* 0.54 3.22 1.73  40% 0.87 
+ 53  3.18 P. Šulc               Czechia      FRA    5.9  0.2* 0.54 3.96 2.47  44% 0.94 FK2 C2
+ 54  3.15 F. Wirtz              Germany      ENG    7.5  22.9 0.42 3.31 1.77  38% 0.75 FK2 C2
+ 55  3.12 W. McKennie           USA          ITA    6.1  0.5* 0.51 3.49 3.57  24% 1.13 
+ 56  3.11 P. Wimmer             Austria      GER    6.0  0.2* 0.52 3.45 1.79  54% 0.81 
+ 57  3.10 A. Rabiot             France       ITA    6.4  0.3* 0.48 3.74 1.69  31% 0.80 
+ 58  3.09 A. Onana              Belgium      ENG    5.9  0.3* 0.52 2.60 7.86  45% 1.03 
+ 59  3.08 L. Goretzka           Germany      GER    6.1  0.4* 0.50 2.90    -  38% 0.75 
+ 60  3.05 A. Nusa               Norway       GER    6.1  3.6* 0.50 3.41 1.50  51% 0.94 
+ 61  3.04 I. Gueye              Senegal      ENG    4.9  0.3* 0.62 3.03 3.08  40% 0.87 
+ 62  3.02 H. Aouar              Algeria      SAU    6.0  0.2* 0.50 4.36 2.42  61% 0.86 C3
+ 63  3.01 Bernardo Silva        Portugal     ENG    7.8  2.4* 0.39 2.90 3.94  39% 0.87 
+ 64  2.98 I. Sangaré            Ivory Coast  ENG    5.8  0.1* 0.51 2.98    -  61% 0.96 P2
+ 65  2.98 S. Berhalter          USA          MLS    4.7  0.1* 0.63 4.5811.58  24% 1.13 FK2
+ 66  2.96 A. Ito                Japan        BEL    5.0  1.5* 0.59 3.95    -  57% 1.34 FK2 C2
+ 67  2.96 L. Sané               Germany      TUR    7.4  1.2* 0.40 4.32 7.57  38% 0.75 
+ 68  2.95 Brahim Díaz           Morocco      ESP    6.4  1.7* 0.46 2.97 2.24  68% 1.25 P1 C2
+ 69  2.95 L. Paredes            Argentina    ARG    5.6  0.2* 0.53 4.61 3.07  73% 0.92 C2
+ 70  2.93 I. Koné               Canada       ITA    6.0  0.3* 0.49 3.38 1.63  72% 1.24 
+ 71  2.93 João Neves            Portugal     FRA    6.5  4.1* 0.45 3.18 4.21  39% 0.87 
+ 72  2.91 M. Caicedo            Ecuador      ENG    6.8  1.6* 0.43 3.03 3.52  64% 1.01 P2 C1
+ 73  2.86 F. de Jong            Netherlands  ESP    7.0  1.6* 0.41 3.28 2.12  45% 1.22 
+ 74  2.86 Lee Kang-In           South Korea  FRA    6.1  0.5* 0.47 3.21 2.43  47% 0.99 FK2 C2
+ 75  2.83 Jesús Rodríguez       Spain        ITA    7.5  1.8* 0.38 3.10 1.17  46% 1.04 
+ 76  2.77 M. Sabitzer           Austria      GER    6.8  3.3* 0.41 2.62 5.46  54% 0.81 P2 FK1 C1
+ 77  2.73 Vitinha               Portugal     FRA    6.4  11.3 0.43 3.03    -  39% 0.87 
+ 78  2.73 R. Zerrouki           Algeria      NED    5.3  0.0* 0.52 3.49    -  61% 0.86 
+ 79  2.72 R. Freuler            Switzerland  ITA    5.9  0.0* 0.46 2.86 3.67  53% 1.03 
+ 80  2.72 F. Kessié             Ivory Coast  SAU    5.9  0.1* 0.46 4.38 2.68  61% 0.96 P1 FK2
+ 81  2.70 Salem Al Dawsari      Saudi Arabia SAU    7.2  0.2* 0.38 4.44 1.62  32% 0.99 C2
+ 82  2.69 Lee Jae-Sung          South Korea  GER    6.2  0.1* 0.43 3.25 1.88  47% 0.99 
+ 83  2.52 T. Almada             Argentina    ESP    6.5  0.2* 0.39 2.61 2.53  73% 0.92 
+ 84  2.50 Fabián Ruiz           Spain        FRA    6.8  1.0* 0.37 2.92 1.48  46% 1.04 
+ 85  2.47 E. Álvarez            Mexico       MEX    6.0  0.5* 0.41 3.73 2.39  48% 1.01 
+ 86  2.45 C. Devlin             Australia    SCO    4.7  0.0* 0.52 3.46    -  42% 1.34 
+ 87  2.44 J. Musiala            Germany      GER    8.0  12.2 0.30 2.81 0.93  38% 0.75 
+ 88  2.44 O. Pineda             Mexico       GRE    6.2  0.1* 0.39 3.39    -  48% 1.01 
+ 89  2.42 T. Adams              USA          ENG    5.3  0.3* 0.46 2.42 2.97  24% 1.13 
+ 90  2.38 P. Vite               Ecuador      MLS    5.2  0.0* 0.46 3.62 2.58  64% 1.01 
+ 91  2.36 S. Berge              Norway       ENG    4.7  0.3* 0.50 2.33 2.56  51% 0.94 
+ 92  2.29 T. Weah               USA          FRA    5.8  0.3* 0.39 2.80 1.90  24% 1.13 
+ 93  2.22 Y. Ayari              Sweden       ENG    5.3  0.2* 0.42 2.52 0.91  19% 0.94 FK1 C2
+ 94  2.22 A. Tchouaméni         France       ESP    6.5  0.9* 0.34 2.25 3.23  31% 0.80 
+ 95  2.18 N. Seiwald            Austria      GER    5.6  0.0* 0.39 2.44 1.44  54% 0.81 
+ 96  2.18 D. Bobadilla          Paraguay     BRA    5.5  0.0* 0.40 2.63 1.91  37% 1.32 
+ 97  2.13 A. Pavlović           Germany      GER    5.5  0.6* 0.39 2.28 2.16  38% 0.75 
+ 98  2.12 T. Souček             Czechia      ENG    5.6  0.5* 0.38 2.25 2.27  44% 0.94 P2
+ 99  2.08 Y. Bárcenas           Panama       MEX    5.6  0.0* 0.37 2.43 5.35  25% 0.89 
+100  2.07 R. Bentancur          Uruguay      ENG    6.0  0.2* 0.34 2.23 1.64  43% 1.14 
+101  1.91 L. Sučić              Croatia      ESP    4.9  0.1* 0.39 1.97 3.67  39% 1.01 
+102  1.90 J. Bacuna             Curacao      NED    5.1  0.0* 0.37 2.28 2.27  34% 0.73 P1 FK1 C1
+103  1.85 Bae Jun-Ho            South Korea  ENG2   5.9  0.0* 0.31 2.29 3.40  47% 0.99 
+104  1.73 A. Tanaka             Japan        ENG    5.0  1.3* 0.35 1.93 1.26  57% 1.34 
+105  1.65 H. Boudaoui           Algeria      FRA    5.5  0.0* 0.30 1.94 1.12  61% 0.86 
+106  1.58 B. Ojeda              Paraguay     MLS    5.6  0.0* 0.28 2.32    -  37% 1.32 
+107  1.57 Mohamed Kanno         Saudi Arabia SAU    5.1  0.0* 0.31 2.88 1.86  32% 0.99 
+108  1.53 S. Fofana             Ivory Coast  FRA    6.8  0.2* 0.23 1.80 0.85  61% 0.96 
+109  1.52 S. Moutoussamy        DR Congo     GRE    5.1  0.0* 0.30 2.61 2.42  48% 1.01 
+110  1.47 J. Karlström          Sweden       ITA    5.6  0.0* 0.26 1.83 0.78  19% 0.94 
+111  1.46 L. Ferguson           Scotland     ITA    4.8  0.2* 0.30 1.30 2.26  32% 0.99 FK2 C2
+112  1.46 K. Diatta             Senegal      FRA    6.1  0.0* 0.24 1.68 1.17  40% 0.87 C1
+113  1.42 R. Christie           Scotland     ENG    5.6  0.1* 0.25 1.09 2.25  32% 0.99 P2 FK3 C3
+114  1.32 A. Carrasquilla       Panama       MEX    6.5  0.1* 0.20 2.17 0.89  25% 0.89 C2
+115  1.29 A. Godoy              Panama       MLS    5.6  0.0* 0.23 1.94 1.44  25% 0.89 
+116  1.24 J. Lerma              Colombia     ENG    4.9  0.2* 0.25 1.25 1.15  36% 0.87 
+117  1.24 K. Sibo               Ghana        ESP    4.7  0.0* 0.26 1.32 0.98  25% 0.89 
+118  1.20 E. Skhiri             Tunisia      GER    4.7  0.0* 0.26 1.03 2.05  24% 1.08 
+119  1.12 Nasser Al Dawsari     Saudi Arabia SAU    5.2  0.1* 0.22 1.51 2.47  32% 0.99 
+120  1.09 N. El Aynaoui         Morocco      ITA    5.6  0.1* 0.19 1.20 0.83  68% 1.25 
+121  0.89 M. Ugarte             Uruguay      ENG    5.9  0.2* 0.15 1.02 0.56  43% 1.14 
+122  0.65 Abdullah Al Khaibari  Saudi Arabia SAU    5.1  0.0* 0.13 0.91 0.96  32% 0.99 
+123  0.53 T. Partey             Ghana        ESP    6.2  0.1* 0.09 0.58 0.46  25% 0.89 
+124  0.43 C. Metcalfe           Australia    GER    5.3  0.0* 0.08 0.46 0.22  42% 1.34 C3
+
+===== FWD (57) =====
+  #  xPts Player                Nation       Lg       $  Own%  Val  sXP  cXP  CS%  Dif SP
+-----------------------------------------------------------------------------------------
+  1 11.26 H. Kane               England      GER   10.5  37.6 1.0712.0814.33  72% 1.22 P1
+  2  9.33 D. Malen              Netherlands  ITA    6.1  1.4* 1.5310.25 1.74  45% 1.22 
+  3  8.15 E. Haaland            Norway       ENG   10.5  33.5 0.78 8.27 1.63  51% 0.94 P1
+  4  7.16 L. Messi              Argentina    MLS   10.0  17.6 0.7210.77 8.38  73% 0.92 P1 FK1 C1
+  5  6.90 A. Ueda               Japan        NED    7.0  0.7* 0.99 9.05    -  57% 1.34 P1
+  6  6.16 Kylian Mbappé         France       ESP   10.5  50.5 0.59 6.90 2.22  31% 0.80 P1
+  7  5.64 Mikel Oyarzabal       Spain        ESP    8.1  17.0 0.70 5.62 8.88  46% 1.04 P1
+  8  5.58 L. Suárez             Colombia     POR    5.7  2.6* 0.98 7.02 0.97  36% 0.87 
+  9  4.85 Son Heung-Min         South Korea  MLS    7.4  2.1* 0.66 7.80 5.08  47% 0.99 P1 FK1 C1
+ 10  4.80 P. Schick             Czechia      GER    7.3  0.8* 0.66 5.09 2.66  44% 0.94 P1
+ 11  4.72 Cristiano Ronaldo     Portugal     SAU   10.0  12.3 0.47 8.37 5.39  39% 0.87 P1 FK1
+ 12  4.32 M. Depay              Netherlands  BRA    7.4  1.2* 0.58 4.34 8.53  45% 1.22 P2 FK1 C1
+ 13  4.24 A. Kramarić           Croatia      GER    6.2  0.2* 0.68 5.10 0.00  39% 1.01 
+ 14  4.17 C. Gakpo              Netherlands  ENG    7.7  3.1* 0.54 4.52 2.27  45% 1.22 P1 C2
+ 15  4.09 A. El Kaabi           Morocco      GRE    5.9  0.3* 0.69 8.00 0.89  68% 1.25 
+ 16  3.91 A. Budimir            Croatia      ESP    6.8  0.2* 0.58 4.65 1.08  39% 1.01 P2
+ 17  3.83 E. Demirović          Bosnia and H GER    6.2  0.1* 0.62 3.92 2.75  28% 1.00 P3
+ 18  3.78 João Félix            Portugal     SAU    6.5  2.1* 0.58 6.21 2.15  39% 0.87 
+ 19  3.75 I. Sarr               Senegal      ENG    6.2  0.5* 0.60 3.77 2.58  40% 0.87 
+ 20  3.75 E. Shomurodov         Uzbekistan   TUR    6.5  0.1* 0.58 5.50 2.15  47% 0.99 P1
+ 21  3.66 Matheus Cunha         Brazil       ENG    7.3  3.5* 0.50 3.38 4.30  33% 0.99 
+ 22  3.62 F. Balogun            USA          FRA    6.0  0.9* 0.60 4.59    -  24% 1.13 P2
+ 23  3.61 V. Gyökeres           Sweden       ENG    7.8   6.1 0.46 3.39 1.21  19% 0.94 P1
+ 24  3.54 A. Semenyo            Ghana        ENG    7.2  4.6* 0.49 3.90 0.97  25% 0.89 
+ 25  3.20 J. Álvarez            Argentina    ESP    8.6  16.0 0.37 3.23 3.67  73% 0.92 FK2
+ 26  3.08 I. Perišić            Croatia      NED    5.4  0.5* 0.57 4.13 1.43  39% 1.01 C2
+ 27  3.01 K. Aktürkoğlu         Turkey       TUR    6.2  0.3* 0.49 4.40 1.77  34% 1.22 
+ 28  3.00 R. Jiménez            Mexico       ENG    7.0  2.7* 0.43 3.13 1.91  48% 1.01 P1 FK1
+ 29  2.78 Y. Diomande           Ivory Coast  GER    5.9  1.1* 0.47 3.68 1.72  61% 0.96 C2
+ 30  2.76 N. Jackson            Senegal      GER    6.7  0.4* 0.41 3.07 0.58  40% 0.87 P2
+ 31  2.73 B. Embolo             Switzerland  FRA    7.5  2.5* 0.36 2.99 3.41  53% 1.03 P2
+ 32  2.70 N. Pépé               Ivory Coast  ESP    5.9  0.2* 0.46 2.78    -  61% 0.96 
+ 33  2.69 I. Ndiaye             Senegal      ENG    6.5  0.6* 0.41 3.29 1.51  40% 0.87 
+ 34  2.62 G. Ávalos             Paraguay     ARG    4.9  0.1* 0.53 4.05 0.70  37% 1.32 
+ 35  2.42 B. Rodríguez          Uruguay      MEX    6.2  0.1* 0.39 3.75 1.67  43% 1.14 
+ 36  2.40 I. Díaz               Panama       MEX    4.9  0.1* 0.49 3.36 1.65  25% 0.89 P2
+ 37  2.34 D. Núñez              Uruguay      SAU    7.5  1.6* 0.31 3.97 1.40  43% 1.14 P2
+ 38  2.31 J. David              Canada       ITA    7.0  1.2* 0.33 2.57 1.08  72% 1.24 P1
+ 39  2.26 E. Valencia           Ecuador      MEX    5.9  0.7* 0.38 3.15 5.96  64% 1.01 P1 FK1
+ 40  2.23 C. Wood               New Zealand  ENG    6.5  0.7* 0.34 2.28 1.67  27% 0.89 P1
+ 41  2.18 B. Nygren             Sweden       SCO    4.9  0.1* 0.44 3.73 4.84  19% 0.94 C1
+ 42  2.04 A. Vega               Mexico       MEX    5.3  0.1* 0.38 3.23 2.33  48% 1.01 FK2 C1
+ 43  1.94 C. Adams              Scotland     ITA    5.4  0.3* 0.36 1.77 2.71  32% 0.99 
+ 44  1.79 Mousa Tamari          Jordan       FRA    5.6  0.1* 0.32 1.83 3.15  17% 0.60 
+ 45  1.78 D. Ndoye              Switzerland  ENG    6.8  0.8* 0.26 1.07 3.56  53% 1.03 
+ 46  1.73 T. Buchanan           Canada       ESP    5.5  0.1* 0.31 1.81 1.38  72% 1.24 
+ 47  1.60 A. Canobbio           Uruguay      BRA    5.3  0.0* 0.30 1.90 0.43  43% 1.14 
+ 48  1.55 C. Talbi              Morocco      ENG    4.4  0.1* 0.35 1.85 0.57  68% 1.25 
+ 49  1.53 L. Foster             South Africa ENG    5.4  0.1* 0.28 1.23 2.28  41% 0.94 P2
+ 50  1.46 J. Ayew               Ghana        ENG2   5.3  0.1* 0.28 1.87 2.25  25% 0.89 P1 FK1 C1
+ 51  1.45 N. Irankunda          Australia    ENG2   5.1  0.3* 0.28 1.96    -  42% 1.34 P2 FK1 C1
+ 52  1.45 Sultan Mandash        Saudi Arabia SAU    4.5  0.0* 0.32 1.80 4.59  32% 0.99 
+ 53  1.44 Hwang Ui-Jo           South Korea  TUR    6.1  0.1* 0.24 2.40    -  47% 0.99 P2
+ 54  1.32 Omar Marmoush         Egypt        ENG    7.8  2.2* 0.17 1.43 0.44  37% 1.05 P2 FK2 C2
+ 55  0.79 S. Tounekti           Tunisia      SCO    4.4  0.0* 0.18 1.28 0.67  24% 1.08 
+ 56  0.64 K. Sulemana           Ghana        ITA    5.1  0.0* 0.13 0.70 0.52  25% 0.89 C2
+ 57  0.57 A. Elanga             Sweden       ENG    5.8  0.4* 0.10 0.58 0.44  19% 0.94 FK3 C3

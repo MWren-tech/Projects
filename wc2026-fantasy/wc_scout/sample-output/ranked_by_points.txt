@@ -1,0 +1,333 @@
+WC2026 PLAYERS RANKED BY PROJECTED POINTS (price NOT used in ranking)
+xPts = projected fantasy points/match | CS%=natl clean sheet | Dif=fixture ease | SP=set-piece | ($ref)=FIFA price (reference only) | Own%=ownership
+
+  #  xPts Player                Pos Nation       Lg    CS%  Dif SP        ($ref)  Own%
+--------------------------------------------------------------------------------------
+  1  9.51 H. Kane               FWD England      GER   72% 1.22 P1          10.5  37.6
+  2  8.01 H. Çalhanoğlu         MID Turkey       ITA   34% 1.22 P1 FK1 C1    7.1   2.7
+  3  7.65 D. Malen              FWD Netherlands  ITA   45% 1.22              6.1   1.4
+  4  7.46 Raphinha              MID Brazil       ESP   33% 0.99 P1 FK1 C1    8.2  21.4
+  5  7.31 Lamine Yamal          MID Spain        ESP   46% 1.04 FK2 C1      10.0  45.3
+  6  6.78 A. Ueda               FWD Japan        NED   57% 1.34 P1           7.0   0.7
+  7  6.71 E. Haaland            FWD Norway       ENG   51% 0.94 P1          10.5  33.5
+  8  6.61 I. Saibari            MID Morocco      NED   68% 1.25              6.8   0.5
+  9  6.59 Bruno Fernandes       MID Portugal     ENG   39% 0.87 P2 FK2 C1    8.5  50.3
+ 10  6.27 Mohamed Salah         MID Egypt        ENG   37% 1.05 P1 FK1 C1   10.0   5.5
+ 11  6.26 L. Messi              FWD Argentina    MLS   73% 0.92 P1 FK1 C1   10.0  17.6
+ 12  6.25 B. Saka               MID England      ENG   72% 1.22 C2           9.5   5.8
+ 13  5.78 E. Martínez           GK  Argentina    ENG   73% 0.92 P2           5.0  22.1
+ 14  5.67 V. van Dijk           DEF Netherlands  ENG   45% 1.22              5.5  20.2
+ 15  5.66 R. Dōan               DEF Japan        GER   57% 1.34 P2 C3        5.1   1.0
+ 16  5.57 Vinícius Júnior       MID Brazil       ESP   33% 0.99 C2          10.0  13.9
+ 17  5.50 E. Fernández          MID Argentina    ENG   73% 0.92              7.5   3.5
+ 18  5.40 Kylian Mbappé         FWD France       ESP   31% 0.80 P1          10.5  50.5
+ 19  5.33 L. Suárez             FWD Colombia     POR   36% 0.87              5.7   2.6
+ 20  5.26 M. Olise              MID France       GER   31% 0.80 FK1 C1       9.5  22.9
+ 21  5.25 M. Guéhi              DEF England      ENG   72% 1.22              5.1   8.0
+ 22  5.13 J. Pickford           GK  England      ENG   72% 1.22              4.8  14.9
+ 23  5.09 F. Valverde           MID Uruguay      ESP   43% 1.14 P1 FK1 C2    7.5   6.1
+ 24  5.08 L. Díaz               MID Colombia     GER   36% 0.87 P2           8.1  18.7
+ 25  5.06 A. Güler              MID Turkey       ESP   34% 1.22 P2 FK2 C2    7.0   9.0
+ 26  5.00 Son Heung-Min         FWD South Korea  MLS   47% 0.99 P1 FK1 C1    7.4   2.1
+ 27  4.99 D. Rice               MID England      ENG   72% 1.22 FK1 C1       7.0   6.8
+ 28  4.93 J. Enciso             MID Paraguay     FRA   37% 1.32 P1 FK2 C2    6.6   0.2
+ 29  4.92 C. Romero             DEF Argentina    ENG   73% 0.92              4.9   4.9
+ 30  4.91 O. Kökçü            MID Turkey       TUR   34% 1.22              6.0   0.3
+ 31  4.87 K. De Bruyne          MID Belgium      ITA   45% 1.03 P1 FK1 C1    7.5   5.6
+ 32  4.79 P. Schick             FWD Czechia      GER   44% 0.94 P1           7.3   0.8
+ 33  4.76 Mikel Oyarzabal       FWD Spain        ESP   46% 1.04 P1           8.1  17.0
+ 34  4.74 A. Hakimi             DEF Morocco      FRA   68% 1.25 P2 FK1 C1    6.0  21.6
+ 35  4.63 Z. Suzuki             GK  Japan        ITA   57% 1.34              4.3   1.8
+ 36  4.62 Casemiro              MID Brazil       ENG   33% 0.99              6.3   2.2
+ 37  4.60 J. Bellingham         MID England      ESP   72% 1.22              8.3   9.4
+ 38  4.51 Bruno Guimarães       MID Brazil       ENG   33% 0.99 FK3 C3       6.8   1.9
+ 39  4.41 G. Xhaka              MID Switzerland  ENG   53% 1.03 P1 FK2       6.2   4.9
+ 40  4.38 S. Mané               MID Senegal      SAU   40% 0.87 P1 FK1       7.6   2.0
+ 41  4.35 S. McTominay          MID Scotland     ITA   32% 0.99 P1           6.5  10.9
+ 42  4.34 E. Konsa              DEF England      ENG   72% 1.22              4.8   1.1
+ 43  4.32 C. Pulišić            MID USA          ITA   24% 1.13 P1 FK1 C1    7.0   5.1
+ 44  4.24 N. Angulo             MID Ecuador      BEL   64% 1.01              6.0   0.2
+ 45  4.22 G. Doué               DEF Ivory Coast  FRA   61% 0.96              3.9   0.9
+ 46  4.17 L. Krejčí             DEF Czechia      ENG   44% 0.94              4.4   0.5
+ 47  4.15 J.  McGinn            MID Scotland     ENG   32% 0.99 P3 FK1 C4    6.0   2.1
+ 48  4.15 T. Kubo               MID Japan        ESP   57% 1.34 FK1 C1       7.0   1.0
+ 49  4.11 R. Bensebaïni         DEF Algeria      GER   61% 0.86              4.4   0.2
+ 50  4.10 J. Doku               MID Belgium      ENG   45% 1.03              7.5  13.0
+ 51  4.10 D. Doué               MID France       FRA   31% 0.80              7.5   3.3
+ 52  4.08 E. Shomurodov         FWD Uzbekistan   TUR   47% 0.99 P1           6.5   0.1
+ 53  4.06 L. Modrić             MID Croatia      ITA   39% 1.01 P1 FK1 C1    6.2   2.5
+ 54  4.04 E. Ndicka             DEF Ivory Coast  ITA   61% 0.96              4.4   0.3
+ 55  4.03 R. Vargas             MID Switzerland  ESP   53% 1.03 FK1 C1       6.8   0.5
+ 56  4.03 Cristiano Ronaldo     FWD Portugal     SAU   39% 0.87 P1 FK1      10.0  12.3
+ 57  4.02 Unai Simón            GK  Spain        ESP   46% 1.04              5.0   6.2
+ 58  4.00 N. Aguerd             DEF Morocco      FRA   68% 1.25              4.3   0.2
+ 59  3.98 Nico Williams         MID Spain        ESP   46% 1.04 C3           7.8   3.9
+ 60  3.96 G. Kobel              GK  Switzerland  GER   53% 1.03              4.7   6.5
+ 61  3.94 J. Ryerson            DEF Norway       GER   51% 0.94 C2           4.2   7.9
+ 62  3.93 B. Verbruggen         GK  Netherlands  ENG   45% 1.22              4.7   3.5
+ 63  3.93 Pedri                 MID Spain        ESP   46% 1.04 FK1          8.1   9.6
+ 64  3.91 V. Coufal             DEF Czechia      GER   44% 0.94 C1           3.6   3.5
+ 65  3.90 O. Dembélé            MID France       FRA   31% 0.80             10.0  19.1
+ 66  3.87 M. Depay              FWD Netherlands  BRA   45% 1.22 P2 FK1 C1    7.4   1.2
+ 67  3.86 C. Baumgartner        MID Austria      GER   54% 0.81              6.7   0.2
+ 68  3.83 A. Semenyo            FWD Ghana        ENG   25% 0.89              7.2   4.6
+ 69  3.83 E. Demirović          FWD Bosnia and H GER   28% 1.00 P3           6.2   0.1
+ 70  3.79 M. Ryan               GK  Australia    ESP   42% 1.34              4.1   0.7
+ 71  3.77 A. Kramarić           FWD Croatia      GER   39% 1.01              6.2   0.2
+ 72  3.76 R. James              DEF England      ENG   72% 1.22 FK3          5.2   4.2
+ 73  3.76 A. Ounahi             MID Morocco      ESP   68% 1.25 FK2          6.2   0.1
+ 74  3.75 D. Raum               DEF Germany      GER   38% 0.75 FK1 C1       4.9   3.7
+ 75  3.74 A. El Kaabi           FWD Morocco      GRE   68% 1.25              5.9   0.3
+ 76  3.73 M. Crépeau            GK  Canada       MLS   72% 1.24              4.0   2.0
+ 77  3.70 R. Gravenberch        MID Netherlands  ENG   45% 1.22              6.1   0.9
+ 78  3.70 T. Courtois           GK  Belgium      ESP   45% 1.03              4.9  12.5
+ 79  3.69 R. Mahrez             MID Algeria      SAU   61% 0.86 P1 FK1 C2    6.5   0.7
+ 80  3.68 C. De Ketelaere       MID Belgium      ITA   45% 1.03              5.6   0.8
+ 81  3.67 F. Balogun            FWD USA          FRA   24% 1.13 P2           6.0   0.9
+ 82  3.66 J. Vásquez            DEF Mexico       ITA   48% 1.01              4.7   2.0
+ 83  3.66 N. Otamendi           DEF Argentina    POR   73% 0.92              4.4   2.1
+ 84  3.64 P. Hincapié           DEF Ecuador      ENG   64% 1.01              4.7   3.2
+ 85  3.59 L. Trossard           MID Belgium      ENG   45% 1.03              6.6   2.3
+ 86  3.56 V. Gyökeres           FWD Sweden       ENG   19% 0.94 P1           7.8   6.1
+ 87  3.55 D. Dumfries           DEF Netherlands  ITA   45% 1.22              5.7  15.7
+ 88  3.54 N. Elvedi             DEF Switzerland  GER   53% 1.03              4.3   2.6
+ 89  3.53 M. Almirón            MID Paraguay     MLS   37% 1.32 P2 FK3       6.0   0.4
+ 90  3.52 C. Gakpo              FWD Netherlands  ENG   45% 1.22 P1 C2        7.7   3.1
+ 91  3.52 A. Budimir            FWD Croatia      ESP   39% 1.01 P2           6.8   0.2
+ 92  3.51 Marc Cucurella        DEF Spain        ENG   46% 1.04              5.1  23.6
+ 93  3.51 J. Gvardiol           DEF Croatia      ENG   39% 1.01              5.0   5.0
+ 94  3.50 H. Galíndez           GK  Ecuador      ARG   64% 1.01              4.2   3.4
+ 95  3.49 M. Pašalić            MID Croatia      MLS   39% 1.01              6.4   0.1
+ 96  3.46 R. Rios               MID Colombia     POR   36% 0.87              4.7   0.6
+ 97  3.45 Matheus Cunha         FWD Brazil       ENG   33% 0.99              7.3   3.5
+ 98  3.42 T. Reijnders          MID Netherlands  ENG   45% 1.22 FK2          6.5   1.6
+ 99  3.40 D. Muñoz              DEF Colombia     ENG   36% 0.87              4.6   8.8
+100  3.40 P. Mwene              DEF Austria      GER   54% 0.81              3.9   0.0
+101  3.39 M. Akanji             DEF Switzerland  ITA   53% 1.03              5.0   4.9
+102  3.37 W. Pacho              DEF Ecuador      FRA   64% 1.01              4.4   4.5
+103  3.32 I. Sarr               FWD Senegal      ENG   40% 0.87              6.2   0.5
+104  3.30 R. Belghali           DEF Algeria      ITA   61% 0.86              3.5   1.5
+105  3.29 J. Kimmich            DEF Germany      GER   38% 0.75 P2 C3        5.5  30.3
+106  3.27 Y. Mina               DEF Colombia     ITA   36% 0.87              4.2   0.3
+107  3.25 N. Schlotterbeck      DEF Germany      GER   38% 0.75              5.3   3.8
+108  3.24 R. Jiménez            FWD Mexico       ENG   48% 1.01 P1 FK1       7.0   2.7
+109  3.23 F. Rieder             MID Switzerland  GER   53% 1.03 FK3 C2       6.2   0.1
+110  3.22 Wesley                DEF Brazil       ITA   33% 0.99              4.5   1.7
+111  3.19 Salem Al Dawsari      MID Saudi Arabia SAU   32% 0.99 C2           7.2   0.2
+112  3.18 Pau Cubarsí Paredes   DEF Spain        ESP   46% 1.04              5.0   5.4
+113  3.17 Alisson Becker        GK  Brazil       ENG   33% 0.99              5.0   5.4
+114  3.17 M. Caicedo            MID Ecuador      ENG   64% 1.01 P2 C1        6.8   1.6
+115  3.17 F. Chaïbi             MID Algeria      GER   61% 0.86 FK2 C1       6.2   0.0
+116  3.17 P. Šulc               MID Czechia      FRA   44% 0.94 FK2 C2       5.9   0.2
+117  3.15 W. McKennie           MID USA          ITA   24% 1.13              6.1   0.5
+118  3.15 João Félix            FWD Portugal     SAU   39% 0.87              6.5   2.1
+119  3.12 S. Widmer             DEF Switzerland  GER   53% 1.03              4.2   1.2
+120  3.11 A. Mac Allister       MID Argentina    ENG   73% 0.92              6.6   3.3
+121  3.10 J. Arias              MID Colombia     BRA   36% 0.87              6.3   0.3
+122  3.10 R. Hranáč             DEF Czechia      GER   44% 0.94              3.9   0.0
+123  3.10 N. Vasilj             GK  Bosnia and H GER   28% 1.00              4.0   0.7
+124  3.09 I. Koné               MID Canada       ITA   72% 1.24              6.0   0.3
+125  3.09 K. Laimer             MID Austria      GER   54% 0.81              5.8   0.4
+126  3.08 A. Freeman            DEF USA          MLS   24% 1.13              4.0   0.4
+127  3.07 M. Neuer              GK  Germany      GER   38% 0.75              5.0  12.7
+128  3.06 L. Horníček           GK  Czechia      POR   44% 0.94              3.8   0.1
+129  3.05 J. Ordoñez            DEF Ecuador      BEL   64% 1.01              3.9   0.8
+130  3.04 G. Konan              DEF Ivory Coast  POR   61% 0.96              4.0   0.4
+131  3.03 Rúben Dias            DEF Portugal     ENG   39% 0.87              5.0   5.6
+132  3.03 Gonçalo Inácio        DEF Portugal     POR   39% 0.87              4.6   1.4
+133  3.03 G. Ávalos             FWD Paraguay     ARG   37% 1.32              4.9   0.1
+134  3.01 S. Berhalter          MID USA          MLS   24% 1.13 FK2          4.7   0.1
+135  2.99 P. Wimmer             MID Austria      GER   54% 0.81              6.0   0.2
+136  2.99 R. Laryea             DEF Canada       MLS   72% 1.24              3.9   0.1
+137  2.98 A. Theate             DEF Belgium      GER   45% 1.03              4.5   0.3
+138  2.97 I. Sangaré            MID Ivory Coast  ENG   61% 0.96 P2           5.8   0.1
+139  2.97 H. Aouar              MID Algeria      SAU   61% 0.86 C3           6.0   0.2
+140  2.96 Y. Tielemans          MID Belgium      ENG   45% 1.03 FK2 C2       6.1   1.2
+141  2.95 Aymeric Laporte       DEF Spain        ESP   46% 1.04              5.5   4.9
+142  2.95 S. Rochet             GK  Uruguay      BRA   43% 1.14              4.1   4.2
+143  2.94 A. Onana              MID Belgium      ENG   45% 1.03              5.9   0.3
+144  2.93 A. Ito                MID Japan        BEL   57% 1.34 FK2 C2       5.0   1.5
+145  2.92 João Cancelo          DEF Portugal     ESP   39% 0.87              5.3   7.4
+146  2.92 M. Maignan            GK  France       ITA   31% 0.80              5.0   9.8
+147  2.92 Lee Kang-In           MID South Korea  FRA   47% 0.99 FK2 C2       6.1   0.5
+148  2.91 F. Wirtz              MID Germany      ENG   38% 0.75 FK2 C2       7.5  22.9
+149  2.91 B. Rodríguez          FWD Uruguay      MEX   43% 1.14              6.2   0.1
+150  2.90 J. Italiano           DEF Australia    AUT   42% 1.34              4.2   0.1
+151  2.89 O. Alderete           DEF Paraguay     ENG   37% 1.32              4.1   0.4
+152  2.89 I. Gueye              MID Senegal      ENG   40% 0.87              4.9   0.3
+153  2.89 A. Rabiot             MID France       ITA   31% 0.80              6.4   0.3
+154  2.88 G. Gómez              DEF Paraguay     BRA   37% 1.32 FK1 C1       4.6   0.3
+155  2.88 J. Álvarez            FWD Argentina    ESP   73% 0.92 FK2          8.6  16.0
+156  2.87 Gabriel Magalhães     DEF Brazil       ENG   33% 0.99              5.5  23.1
+157  2.87 P. Gueye              MID Senegal      ESP   40% 0.87              5.9   0.1
+158  2.87 K. Thorstvedt         MID Norway       ITA   51% 0.94              6.2   0.0
+159  2.85 A. Circati            DEF Australia    ITA   42% 1.34              3.9   0.1
+160  2.85 Z. Çelik              DEF Turkey       ITA   34% 1.22              4.3   0.1
+161  2.83 Bernardo Silva        MID Portugal     ENG   39% 0.87              7.8   2.4
+162  2.83 D. Núñez              FWD Uruguay      SAU   43% 1.14 P2           7.5   1.6
+163  2.82 T. Heggem             DEF Norway       ITA   51% 0.94              3.7   0.2
+164  2.82 L. Goretzka           MID Germany      GER   38% 0.75              6.1   0.4
+165  2.81 K. Aktürkoğlu         FWD Turkey       TUR   34% 1.22              6.2   0.3
+166  2.78 Y. Diomande           FWD Ivory Coast  GER   61% 0.96 C2           5.9   1.1
+167  2.78 N. Tagliafico         DEF Argentina    FRA   73% 0.92              4.3   1.1
+168  2.76 I. Perišić            FWD Croatia      NED   39% 1.01 C2           5.4   0.5
+169  2.75 J. Stanišić           DEF Croatia      GER   39% 1.01              4.3   0.5
+170  2.75 L. Sané               MID Germany      TUR   38% 0.75              7.4   1.2
+171  2.75 P. Vite               MID Ecuador      MLS   64% 1.01              5.2   0.0
+172  2.74 Brahim Díaz           MID Morocco      ESP   68% 1.25 P1 C2        6.4   1.7
+173  2.74 Diogo Costa           GK  Portugal     POR   39% 0.87              4.9   9.8
+174  2.73 Lee Jae-Sung          MID South Korea  GER   47% 0.99              6.2   0.1
+175  2.73 Nuno Mendes           DEF Portugal     FRA   39% 0.87 C3           5.8  43.1
+176  2.73 J. Gallardo           DEF Mexico       MEX   48% 1.01              4.7   0.5
+177  2.72 M. Sabitzer           MID Austria      GER   54% 0.81 P2 FK1 C1    6.8   3.3
+178  2.72 E. Valencia           FWD Ecuador      MEX   64% 1.01 P1 FK1       5.9   0.7
+179  2.72 L. Paredes            MID Argentina    ARG   73% 0.92 C2           5.6   0.2
+180  2.71 A. Nusa               MID Norway       GER   51% 0.94              6.1   3.6
+181  2.71 F. Kessié             MID Ivory Coast  SAU   61% 0.96 P1 FK2       5.9   0.1
+182  2.70 A. Schlager           GK  Austria      AUT   54% 0.81              4.6   0.4
+183  2.70 João Neves            MID Portugal     FRA   39% 0.87              6.5   4.1
+184  2.70 R. Zerrouki           MID Algeria      NED   61% 0.86              5.3   0.0
+185  2.69 N. Pépé               FWD Ivory Coast  ESP   61% 0.96              5.9   0.2
+186  2.68 R. Rodríguez          DEF Switzerland  ESP   53% 1.03              4.5   1.8
+187  2.66 Marcos Llorente       DEF Spain        ESP   46% 1.04              5.5   5.1
+188  2.64 K. Itakura            DEF Japan        NED   57% 1.34              4.5   0.2
+189  2.64 Lee Tae-Seok          DEF South Korea  AUT   47% 0.99              3.7   0.0
+190  2.63 R. Freuler            MID Switzerland  ITA   53% 1.03              5.9   0.0
+191  2.63 J. Alonso             DEF Paraguay     BRA   37% 1.32              4.1   0.1
+192  2.63 E. Álvarez            MID Mexico       MEX   48% 1.01              6.0   0.5
+193  2.60 I. Díaz               FWD Panama       MEX   25% 0.89 P2           4.9   0.1
+194  2.57 F. de Jong            MID Netherlands  ESP   45% 1.22              7.0   1.6
+195  2.56 R. Aït-Nouri          DEF Algeria      ENG   61% 0.86              4.9   1.2
+196  2.56 O. Pineda             MID Mexico       GRE   48% 1.01              6.2   0.1
+197  2.55 J. David              FWD Canada       ITA   72% 1.24 P1           7.0   1.2
+198  2.55 M. Niakhaté           DEF Senegal      FRA   40% 0.87              4.3   0.1
+199  2.53 P. Lienhart           DEF Austria      GER   54% 0.81              4.3   0.2
+200  2.53 C. Devlin             MID Australia    SCO   42% 1.34              4.7   0.0
+201  2.52 Rodri                 MID Spain        ENG   46% 1.04              7.5   1.8
+202  2.52 M. Demiral            DEF Turkey       SAU   34% 1.22              4.0   0.7
+203  2.51 B. Embolo             FWD Switzerland  FRA   53% 1.03 P2           7.5   2.5
+204  2.50 S. Taniguchi          DEF Japan        BEL   57% 1.34              3.9   0.0
+205  2.47 D. Ćaleta-Car         DEF Croatia      ESP   39% 1.01              4.0   0.4
+206  2.45 Z. Debast             DEF Belgium      POR   45% 1.03              4.3   0.2
+207  2.43 T. Adams              MID USA          ENG   24% 1.13              5.3   0.3
+208  2.43 Vitinha               MID Portugal     FRA   39% 0.87              6.4  11.3
+209  2.41 D. Bobadilla          MID Paraguay     BRA   37% 1.32              5.5   0.0
+210  2.39 C. Wood               FWD New Zealand  ENG   27% 0.89 P1           6.5   0.7
+211  2.39 J. Giménez            DEF Uruguay      ESP   43% 1.14              4.4   1.8
+212  2.38 I. Ndiaye             FWD Senegal      ENG   40% 0.87              6.5   0.6
+213  2.37 O. Gill               GK  Paraguay     ARG   37% 1.32              3.5   0.4
+214  2.35 N. Jackson            FWD Senegal      GER   40% 0.87 P2           6.7   0.4
+215  2.34 A. Robinson           DEF USA          ENG   24% 1.13 C3           5.0   3.1
+216  2.34 É. Mendy              GK  Senegal      SAU   40% 0.87              4.5   1.1
+217  2.33 T. Almada             MID Argentina    ESP   73% 0.92              6.5   0.2
+218  2.32 J. Mojica             DEF Colombia     ESP   36% 0.87              3.9   4.0
+219  2.30 T. Weah               MID USA          FRA   24% 1.13              5.8   0.3
+220  2.28 S. Berge              MID Norway       ENG   51% 0.94              4.7   0.3
+221  2.27 M. Crocombe           GK  New Zealand  ENG2  27% 0.89              3.9   0.1
+222  2.25 A. Abdi               DEF Tunisia      FRA   24% 1.08 P1 FK2 C2    4.1   0.1
+223  2.25 J. Sánchez            DEF Mexico       MEX   48% 1.01              4.0   0.8
+224  2.22 N. Molina             DEF Argentina    ESP   73% 0.92              4.4   3.7
+225  2.22 O. Kabak              DEF Turkey       GER   34% 1.22              4.0   0.4
+226  2.21 Y. Ayari              MID Sweden       ENG   19% 0.94 FK1 C2       5.3   0.2
+227  2.21 Fabián Ruiz           MID Spain        FRA   46% 1.04              6.8   1.0
+228  2.21 A. Vega               FWD Mexico       MEX   48% 1.01 FK2 C1       5.3   0.1
+229  2.20 J. Musiala            MID Germany      GER   38% 0.75              8.0  12.2
+230  2.19 M. De Cuyper          DEF Belgium      ENG   45% 1.03 C3           4.7   4.5
+231  2.18 A. Khusanov           DEF Uzbekistan   ENG   47% 0.99              4.3   0.9
+232  2.16 R. Bentancur          MID Uruguay      ENG   43% 1.14              6.0   0.2
+233  2.16 W. Saliba             DEF France       ENG   31% 0.80              5.3  15.4
+234  2.16 A. Tchouaméni         MID France       ESP   31% 0.80              6.5   0.9
+235  2.16 Y. Bárcenas           MID Panama       MEX   25% 0.89              5.6   0.0
+236  2.16 B. Nygren             FWD Sweden       SCO   19% 0.94 C1           4.9   0.1
+237  2.15 N. Seiwald            MID Austria      GER   54% 0.81              5.6   0.0
+238  2.11 T. Souček             MID Czechia      ENG   44% 0.94 P2           5.6   0.5
+239  2.09 T. Muharemović        DEF Bosnia and H ITA   28% 1.00              3.9   0.3
+240  2.07 A. Salah-Eddine       DEF Morocco      NED   68% 1.25              3.9   0.0
+241  2.05 S. Floranus           DEF Curacao      NED   34% 0.73              3.6   0.0
+242  2.05 D. Livaković          GK  Croatia      CRO   39% 1.01              4.5   1.5
+243  2.03 Nawaf Al Aqidi        GK  Saudi Arabia SAU   32% 0.99              4.0   0.2
+244  2.00 D. Upamecano          DEF France       GER   31% 0.80              5.3   4.6
+245  2.00 A. Pavlović           MID Germany      GER   38% 0.75              5.5   0.6
+246  1.98 T. Castagne           DEF Belgium      ENG   45% 1.03              4.7   0.4
+247  1.96 J. Bacuna             MID Curacao      NED   34% 0.73 P1 FK1 C1    5.1   0.0
+248  1.95 C. Adams              FWD Scotland     ITA   32% 0.99              5.4   0.3
+249  1.94 C. Mbemba             DEF DR Congo     FRA   48% 1.01              4.2   0.1
+250  1.91 T. Buchanan           FWD Canada       ESP   72% 1.24              5.5   0.1
+251  1.91 Mousa Tamari          FWD Jordan       FRA   17% 0.60              5.6   0.1
+252  1.91 A. Dedić              DEF Bosnia and H POR   28% 1.00 C2           4.3   0.4
+253  1.91 A. Canobbio           FWD Uruguay      BRA   43% 1.14              5.3   0.0
+254  1.88 O. Mosquera           GK  Panama       SAU   25% 0.89              3.9   0.1
+255  1.87 A. Murillo            DEF Panama       FRA   25% 0.89 FK1          5.0   1.1
+256  1.87 Bae Jun-Ho            MID South Korea  ENG2  47% 0.99              5.9   0.0
+257  1.85 J. Šutalo             DEF Croatia      NED   39% 1.01              4.3   0.0
+258  1.82 J. Koundé             DEF France       ESP   31% 0.80              5.4   7.3
+259  1.81 L. Sučić              MID Croatia      ESP   39% 1.01              4.9   0.1
+260  1.76 T. Hernández          DEF France       SAU   31% 0.80              5.0   3.2
+261  1.73 D. Ndoye              FWD Switzerland  ENG   53% 1.03              6.8   0.8
+262  1.73 M. Talbi              DEF Tunisia      FRA   24% 1.08              3.9   0.1
+263  1.73 Sultan Mandash        FWD Saudi Arabia SAU   32% 0.99              4.5   0.0
+264  1.71 A. Tanaka             MID Japan        ENG   57% 1.34              5.0   1.3
+265  1.71 D. Sánchez            DEF Colombia     TUR   36% 0.87              4.3   0.8
+266  1.70 B. Ojeda              MID Paraguay     MLS   37% 1.32              5.6   0.0
+267  1.70 Mohamed Kanno         MID Saudi Arabia SAU   32% 0.99              5.1   0.0
+268  1.69 K. Koulibaly          DEF Senegal      SAU   40% 0.87              4.9   0.7
+269  1.67 C. Arcus              DEF Haiti        FRA   26% 0.94              3.8   0.0
+270  1.66 Marquinhos            DEF Brazil       FRA   33% 0.99              5.2   7.1
+271  1.66 M. Freese             GK  USA          MLS   24% 1.13              4.2   0.5
+272  1.65 S. McKenna            DEF Scotland     CRO   32% 0.99              3.8   0.2
+273  1.64 H. Boudaoui           MID Algeria      FRA   61% 0.86              5.5   0.0
+274  1.62 L. Foster             FWD South Africa ENG   41% 0.94 P2           5.4   0.1
+275  1.59 S. Moutoussamy        MID DR Congo     GRE   48% 1.01              5.1   0.0
+276  1.56 R. Araújo             DEF Uruguay      ESP   43% 1.14              5.0   3.2
+277  1.55 Omar Marmoush         FWD Egypt        ENG   37% 1.05 P2 FK2 C2    7.8   2.2
+278  1.55 J. Ayew               FWD Ghana        ENG2  25% 0.89 P1 FK1 C1    5.3   0.1
+279  1.54 K. Peprah Oppong      DEF Ghana        FRA   25% 0.89              3.5   0.3
+280  1.54 N. Irankunda          FWD Australia    ENG2  42% 1.34 P2 FK1 C1    5.1   0.3
+281  1.53 C. Richards           DEF USA          ENG   24% 1.13              4.1   0.7
+282  1.53 S. Fofana             MID Ivory Coast  FRA   61% 0.96              6.8   0.2
+283  1.50 G. Mensah             DEF Ghana        FRA   25% 0.89              3.9   0.1
+284  1.50 J. Córdoba            DEF Panama       ENG2  25% 0.89              4.0   0.3
+285  1.48 Hwang Ui-Jo           FWD South Korea  TUR   47% 0.99 P2           6.1   0.1
+286  1.48 D. Møller Wolfe       DEF Norway       ENG   51% 0.94              4.0   0.7
+287  1.47 Hassan Tambakti       DEF Saudi Arabia SAU   32% 0.99              4.5   0.1
+288  1.47 Abdulelah Al Amri     DEF Saudi Arabia SAU   32% 0.99              3.7   0.0
+289  1.46 L. Ferguson           MID Scotland     ITA   32% 0.99 FK2 C2       4.8   0.2
+290  1.46 J. Karlström          MID Sweden       ITA   19% 0.94              5.6   0.0
+291  1.45 C. Talbi              FWD Morocco      ENG   68% 1.25              4.4   0.1
+292  1.43 R. Christie           MID Scotland     ENG   32% 0.99 P2 FK3 C3    5.6   0.1
+293  1.39 K. Diatta             MID Senegal      FRA   40% 0.87 C1           6.1   0.0
+294  1.39 A. Carrasquilla       MID Panama       MEX   25% 0.89 C2           6.5   0.1
+295  1.38 D. Svensson           DEF Sweden       GER   19% 0.94              4.5   0.5
+296  1.34 M. Olivera            DEF Uruguay      ITA   43% 1.14              4.3   0.9
+297  1.32 A. Godoy              MID Panama       MLS   25% 0.89              5.6   0.0
+298  1.31 A. Robertson          DEF Scotland     ENG   32% 0.99 C1           5.0   4.9
+299  1.31 G. Hanley             DEF Scotland     SCO   32% 0.99              3.5   0.4
+300  1.29 S. Kolašinac          DEF Bosnia and H ITA   28% 1.00              4.3   0.2
+301  1.27 A. Preciado           DEF Ecuador      ARG   64% 1.01              4.3   0.1
+302  1.27 A. Andrade            DEF Panama       AUT   25% 0.89              3.7   0.0
+303  1.25 K. Sibo               MID Ghana        ESP   25% 0.89              4.7   0.0
+304  1.22 J. Lerma              MID Colombia     ENG   36% 0.87              4.9   0.2
+305  1.21 E. Skhiri             MID Tunisia      GER   24% 1.08              4.7   0.0
+306  1.19 Y. Valery             DEF Tunisia      ENG2  24% 1.08              3.9   0.0
+307  1.18 Moteb Al Harbi        DEF Saudi Arabia SAU   32% 0.99              4.1   0.0
+308  1.17 Nasser Al Dawsari     MID Saudi Arabia SAU   32% 0.99              5.2   0.1
+309  1.12 A. Trusty             DEF USA          SCO   24% 1.13              3.9   0.1
+310  1.08 M. Boxall             DEF New Zealand  MLS   27% 0.89              3.7   0.0
+311  1.07 I. Jakobs             DEF Senegal      TUR   40% 0.87              4.1   0.0
+312  1.03 N. El Aynaoui         MID Morocco      ITA   68% 1.25              5.6   0.1
+313  1.01 D. Bronn              DEF Tunisia      SUI   24% 1.08              3.6   0.0
+314  1.00 G. Gudmundsson        DEF Sweden       ENG   19% 0.94              4.2   0.6
+315  1.00 G. Lagerbielke        DEF Sweden       POR   19% 0.94              3.7   0.2
+316  0.94 C. Starfelt           DEF Sweden       ESP   19% 0.94              4.1   0.1
+317  0.90 M. Ugarte             MID Uruguay      ENG   43% 1.14              5.9   0.2
+318  0.90 A. Seidu              DEF Ghana        FRA   25% 0.89              3.9   0.0
+319  0.86 S. Tounekti           FWD Tunisia      SCO   24% 1.08              4.4   0.0
+320  0.85 V. Lindelöf           DEF Sweden       ENG   19% 0.94              4.0   1.8
+321  0.85 L. Cacace             DEF New Zealand  ENG2  27% 0.89              4.1   0.0
+322  0.70 N. Aké                DEF Netherlands  ENG   45% 1.22              5.0   2.5
+323  0.70 Abdullah Al Khaibari  MID Saudi Arabia SAU   32% 0.99              5.1   0.0
+324  0.69 K. Sulemana           FWD Ghana        ITA   25% 0.89 C2           5.1   0.0
+325  0.61 A. Hickey             DEF Scotland     ENG   32% 0.99              4.3   0.2
+326  0.57 A. Elanga             FWD Sweden       ENG   19% 0.94 FK3 C3       5.8   0.4
+327  0.54 T. Partey             MID Ghana        ESP   25% 0.89              6.2   0.1
+328  0.45 C. Metcalfe           MID Australia    GER   42% 1.34 C3           5.3   0.0

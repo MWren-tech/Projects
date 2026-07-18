@@ -1,0 +1,38 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+venvvenv/
+*.egg-info/
+
+# ---- Engine caches / local state (all regenerated at runtime) ----
+.api_cache/
+.fifa_cache/
+.pool_cache.pkl
+*.log
+
+# ---- Node / Next.js ----
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# ---- Secrets (commit only the .env.example templates) ----
+.env
+.env.local
+.env*.local
+
+# ---- Database (regenerated via `npm run db:push && npm run db:seed`) ----
+*.db
+*.db-journal
+prisma/dev.db*
+
+# ---- OS cruft ----
+.DS_Store
+Thumbs.db
+
+# NOTE: wc-companion/data/snapshot.json IS committed on purpose — it lets the
+# app run out of the box without an API-Football key. Regenerate it with the
+# engine (see README) to refresh the numbers.
