@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  engine:
+    name: Engine (Python)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: wc2026-fantasy/wc_scout
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install -r requirements-dev.txt
+      - name: Byte-compile
+        run: python -m py_compile *.py
+      - name: Tests
+        run: pytest -q
+
+  app:
+    name: App (Next.js / TypeScript)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: wc2026-fantasy/wc-companion
+    env:
+      # dummy — the app reads data/snapshot.json; no DB query runs at build time
+      DATABASE_URL: "file:./dev.db"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: wc2026-fantasy/wc-companion/package-lock.json
+      - name: Install deps
+        run: npm ci
+      - name: Typecheck
+        run: node node_modules/typescript/bin/tsc --noEmit
+      - name: Unit tests
+        run: npm test
+      - name: Production build
+        run: npm run build

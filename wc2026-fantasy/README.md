@@ -7,6 +7,8 @@ Next.js web app with an optional Claude chat layer grounded in the model's own n
 
 **Stack:** Python (ETL + analytics) · Next.js 14 / TypeScript / Tailwind (app) · SQLite + Prisma · Anthropic API (optional chat)
 
+[![CI](https://github.com/MWren-tech/Projects/actions/workflows/ci.yml/badge.svg)](https://github.com/MWren-tech/Projects/actions/workflows/ci.yml)
+
 > **▶ Live demo: [wc-azure.vercel.app](https://wc-azure.vercel.app/)** — a hosted, read-only build **showing Matchday 2 predictions (data captured 20 Jun 2026)**. One-click setup in [DEPLOY.md](DEPLOY.md).
 
 Built as a two-part monorepo. The two halves are deliberately decoupled and touch through
@@ -175,6 +177,45 @@ engine emits.
   full 48-squad register.
 
 All external calls are cached to disk (`.api_cache/`, `.fifa_cache/`) and never committed.
+
+---
+
+## Engineering decisions
+
+A few deliberate choices, and the reasoning behind them:
+
+- **One JSON contract between the two halves.** The model and app never call each other at
+  runtime — they meet only at `snapshot.json`. This keeps the Python engine free to be slow,
+  batch and API-heavy while the app stays a fast, stateless reader, and it makes the app
+  trivially testable against a fixture. The trade-off (numbers are only as fresh as the last
+  export) is acceptable for a tournament that moves one matchday at a time.
+- **The model is the single source of truth; the app never invents data.** Even the in-app
+  Claude assistant is grounded strictly to the snapshot's player list, so it can't hallucinate
+  players or prices. Rankings, prices and the scoring ruleset live in exactly one place
+  (`scoring.py`).
+- **An ILP for the optimal squad, not a greedy heuristic.** Squad selection is a knapsack with
+  budget, formation and max-per-nation constraints — greedy picks miss the optimum, so it's
+  solved exactly with PuLP.
+- **Local-first, zero cloud dependencies.** SQLite + Prisma and on-disk API caching mean the
+  whole thing runs on one machine for free; the schema is portable to Postgres when hosted
+  persistence is wanted (see [DEPLOY.md](DEPLOY.md)).
+- **Incremental vs. full refresh.** The daily job re-pulls only what changes mid-tournament
+  (WC form + fixtures) rather than rebuilding every window, keeping it inside a free API tier's
+  ~100 requests/day.
+
+## Tests
+
+The scoring model and the app's advisory math are the parts most worth pinning, so they have
+unit tests; CI runs them on every push (typecheck + tests + production build).
+
+```powershell
+cd wc_scout && pip install -r requirements-dev.txt && pytest      # engine ruleset
+cd wc-companion && npm test                                        # squad/rating logic (vitest)
+```
+
+The TypeScript suite includes a regression for a real bug this project hit: depth players carry
+a `null` fixture rating, and `null < 0.9` coerces to `true` in JS, which slipped them into a
+formatter that crashed the page. The test locks that path.
 
 ---
 
