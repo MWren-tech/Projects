@@ -89,11 +89,15 @@ of the box.
 ```powershell
 cd wc-companion
 npm install
-Copy-Item .env.example .env.local     # optional: paste an ANTHROPIC_API_KEY to enable chat
+Copy-Item .env.example .env           # Prisma + the app both read .env; edit to add keys
 npm run db:push                       # create the local SQLite db
 npm run db:seed                       # load players from the bundled snapshot
 npm run dev                           # http://localhost:3000
 ```
+
+> **Use `.env`, not `.env.local`.** The Prisma CLI (`db:push`) and the seed script only read
+> `.env`, so `DATABASE_URL` must live there. Next.js reads `.env` too, so this one file covers
+> everything.
 
 Everything except the free-text AI chat works with no keys at all. The chat layer needs a
 pay-as-you-go `ANTHROPIC_API_KEY` (not a Claude subscription) — see `wc-companion/.env.example`.

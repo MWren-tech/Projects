@@ -7,12 +7,12 @@
 
 ## First-time setup (web app)
 ```powershell
-cd "World Cup 2026/wc-companion"
+cd wc-companion
 npm install
-Copy-Item .env.example .env.local      # then paste ANTHROPIC_API_KEY (optional)
-npm run snapshot                        # = python ../wc_scout/export_snapshot.py
-npm run db:push
-npm run db:seed
+Copy-Item .env.example .env            # Prisma + seed read .env (not .env.local)
+npm run db:push                         # create the local SQLite db
+npm run db:seed                         # seed from the bundled data/snapshot.json
+# npm run snapshot                       # optional: regenerate snapshot (needs API_FOOTBALL_KEY)
 ```
 
 ## Run the app
