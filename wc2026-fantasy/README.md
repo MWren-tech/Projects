@@ -7,7 +7,7 @@ Next.js web app with an optional Claude chat layer grounded in the model's own n
 
 **Stack:** Python (ETL + analytics) · Next.js 14 / TypeScript / Tailwind (app) · SQLite + Prisma · Anthropic API (optional chat)
 
-> **▶ Live demo: [projects-9kjd.vercel.app](https://projects-9kjd.vercel.app/)** — a hosted, read-only build **showing Matchday 2 predictions (data captured 20 Jun 2026)**. One-click setup in [DEPLOY.md](DEPLOY.md).
+> **▶ Live demo: [wc-azure.vercel.app](https://wc-azure.vercel.app/)** — a hosted, read-only build **showing Matchday 2 predictions (data captured 20 Jun 2026)**. One-click setup in [DEPLOY.md](DEPLOY.md).
 
 Built as a two-part monorepo. The two halves are deliberately decoupled and touch through
 exactly **one file** — `wc-companion/data/snapshot.json`:
