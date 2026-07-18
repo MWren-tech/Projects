@@ -32,7 +32,7 @@ export function CompareTool({ players }: { players: Player[] }) {
             <Row label="Differential" a={a.differential} b={b.differential} fmt={(v) => `${v}`} higher />
             <Row label="Goals / 90" a={a.g90} b={b.g90} fmt={(v) => v.toFixed(2)} higher />
             <Row label="Assists / 90" a={a.a90} b={b.a90} fmt={(v) => v.toFixed(2)} higher />
-            <Row label="Start prob" a={a.startProb * 100} b={b.startProb * 100} fmt={(v) => `${Math.round(v)}%`} higher />
+            <Row label="Start prob" a={a.startProb == null ? null : a.startProb * 100} b={b.startProb == null ? null : b.startProb * 100} fmt={(v) => `${Math.round(v)}%`} higher />
             <Row label="Fixture ease" a={a.fixtureEase} b={b.fixtureEase} fmt={(v) => v.toFixed(2)} higher />
             <Row label="Clean sheet %" a={(a.cleanSheet ?? 0) * 100} b={(b.cleanSheet ?? 0) * 100} fmt={(v) => `${Math.round(v)}%`} higher />
           </div>
@@ -81,14 +81,15 @@ function Header({ p, align = "left" }: { p: Player; align?: "left" | "right" }) 
   );
 }
 
-function Row({ label, a, b, fmt, higher }: { label: string; a: number; b: number; fmt: (v: number) => string; higher: boolean }) {
-  const aWins = higher ? a > b : a < b;
-  const bWins = higher ? b > a : b < a;
+function Row({ label, a, b, fmt, higher }: { label: string; a: number | null; b: number | null; fmt: (v: number) => string; higher: boolean }) {
+  const bothSet = a != null && b != null;
+  const aWins = bothSet && (higher ? a! > b! : a! < b!);
+  const bWins = bothSet && (higher ? b! > a! : b! < a!);
   return (
     <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-2 border-b border-border/40 py-1.5 text-sm">
-      <div className={cn("num text-left", aWins ? "font-semibold text-accent" : "text-muted")}>{fmt(a)}</div>
+      <div className={cn("num text-left", aWins ? "font-semibold text-accent" : "text-muted")}>{a == null ? "—" : fmt(a)}</div>
       <div className="px-2 text-center text-[11px] uppercase tracking-wide text-muted">{label}</div>
-      <div className={cn("num text-right", bWins ? "font-semibold text-accent" : "text-muted")}>{fmt(b)}</div>
+      <div className={cn("num text-right", bWins ? "font-semibold text-accent" : "text-muted")}>{b == null ? "—" : fmt(b)}</div>
     </div>
   );
 }
